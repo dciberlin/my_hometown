@@ -1,0 +1,30 @@
+html {
+    font-size: 16px;
+}
+
+.line{
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0;
+  }
+  .column{
+    padding: 0 10px;
+    float: left;
+  }
+  
+.col1{
+    width: 23%;
+  }
+
+.col2{
+    width: 46%;
+}
+
+.col3{
+    width: 69%;
+}
+
+.col4{
+    width: 92%;
+}
