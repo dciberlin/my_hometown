@@ -35,3 +35,49 @@ nav a{
     font-family: 'ZCOOL KuaiLe', cursive;
 
 }
+/*************************************************************************
+*****************                                          ***************
+*****************HERE THE home top image style CUSTOMIZED  ***************
+*****************                                          ***************
+**************************************************************************/
+
+img.home-image{
+    width: 60%;         
+    margin-left: 260px;
+    margin-top: 20px;
+}
+.city{
+    font-size: 45px;
+    font-family: 'Monoton', cursive;
+    color: aliceblue;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 300px;
+}
+/*************************************************************************
+*****************                                          ***************
+***************** HERE THE history section style CUSTOMIZED***************
+*****************                                          ***************
+**************************************************************************/
+h2{
+    font-size: 40px;
+    font-family: 'VT323', monospace;
+    color: aliceblue;
+}
+
+.masque{
+    width: 45%;
+    border: outset;
+    border-radius: 15px;   
+    
+}
+
+.text-ouaga{
+    width: 45%;    
+    float: right;
+    margin-right: 55px;
+    color:black;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(255,255,255,0.6);
+}
