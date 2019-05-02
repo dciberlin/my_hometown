@@ -14,17 +14,44 @@ html {
   }
   
 .col1{
-    width: 23%;
+    width: 24%;
   }
 
 .col2{
-    width: 46%;
+    width: 48%;
 }
 
 .col3{
-    width: 69%;
+    width: 72%;
 }
 
 .col4{
-    width: 92%;
+    width: 96%;
+}
+
+#menu {
+    background-color: black;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#intro a:hover {
+    color: tomato;
+    font-size: 1.6rem;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 15px 25px 0 20px;
 }
