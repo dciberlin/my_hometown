@@ -46,13 +46,14 @@ li {
     color: antiquewhite;
     letter-spacing: 3px;
 }
-.divh2 {
+.h2 {
+    font-size: 1em;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
 }
-.box2 {
+.box2, .box3 {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -118,6 +119,13 @@ li {
   .box2 button span a:visited {
       color: #f2fcfe;
   }
-
-
+.h2 {
+    overflow: hidden;
+}
+#h2 {
+    margin-top: 100px;
+}
+iframe {
+    width: 100%;
+}
 
