@@ -9,24 +9,24 @@ html {
     padding: 0;
   }
   .column{
-    padding: 0 10px;
+    padding: 0;
     float: left;
   }
   
 .col1{
-    width: 24%;
+    width: 23%;
   }
 
 .col2{
-    width: 48%;
+    width: 46%;
 }
 
 .col3{
-    width: 72%;
+    width: 69%;
 }
 
 .col4{
-    width: 96%;
+    width: 92%;
 }
 
 #menu {
@@ -56,3 +56,12 @@ nav ul li {
     margin: 15px 25px;
 }
 
+.box {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+}
