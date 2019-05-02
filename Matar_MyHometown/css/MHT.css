@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    
+}
+nav{
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+    
+}
+li{
+    display: inline;
+    padding: 10%;
+    
+}
+ul{
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+#headimg {
+    width: 100%;
+}
+
+
+   
