@@ -1,12 +1,15 @@
 *, body, html{
     margin: 0;
     padding: 0;
-    font: 1.03em "open sans" , sans-serif; 
 
 }
 
 body{
 background-color: white;
+}
+.maim-body {
+    margin: 5px auto;
+    width: 90%;
 }
 
 ul {
@@ -24,10 +27,26 @@ li {
 }
 
 .main-img {
+    width: 100%;
     padding-top: 15px;
-    width: 90%;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
     display: block;
     margin: auto;
     
   }
+  h1 {
+      text-align: center;
+      padding-bottom: 10px;
+  }
+
+  .content{
+      padding-top: 60px;
+      overflow: auto;
+  }
+ .his-img{
+     float: left;
+    margin-right: 10px;
+    overflow: auto;
+  }
+
+  
