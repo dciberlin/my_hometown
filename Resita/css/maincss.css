@@ -2,9 +2,12 @@ html, body {
     font-family: 'Gugi', cursive;
     width: 100%;
     height: 100%;
+    padding: 0px;
+    margin: 0px;
 }
-nav ul {
-    position: absolute;
+div ul {
+    display: inline-block;
+    position: relative;
     left: 50%;
     transform: translate(-50%);
     margin: 20px;
@@ -15,10 +18,22 @@ li {
     display: inline-block;
     margin: 20px;
 }
+.box1 {
+    position: relative;
+}
 .box1 img {
-    width: 80%;
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 100px;
+    filter: grayscale(100%);
+}
+.box1 p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: antiquewhite;
+    letter-spacing: 3px;
 } 
