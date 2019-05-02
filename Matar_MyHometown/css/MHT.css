@@ -6,13 +6,26 @@
     
 }
 nav{
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    box-shadow: 5px 5px 5px 5px rgba(27, 23, 23, 0.2);
     
 }
 li{
     display: inline;
     padding: 10%;
     
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: green;
 }
 ul{
     text-align: center;
@@ -22,6 +35,30 @@ ul{
 #headimg {
     width: 100%;
 }
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+div{
+    padding-bottom: 8%;
+}
+header{
+    padding-bottom: 8%;
+}
+.divimg{
+    float: right;
+    width: 30%;
+    clear: both;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 5%;
+}
+#ph{
+    margin: 4%;
+    padding-top: 4%;
+    
+}
+
 
 
    
