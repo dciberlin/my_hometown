@@ -15,3 +15,20 @@ a:link {
 a:visited {
     color: black;
 }
+.berlinbild {
+    position: relative;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#berlin {
+    position: fixed;
+    color: #dee4eb;
+    font-size: 30px;
+    letter-spacing: 1em;
+    font-weight: bold;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%)
+}
