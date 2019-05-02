@@ -1,0 +1,69 @@
+html {
+    background: url(../assets/img/plomo_old.jpg) no-repeat center center fixed;
+    background-size: cover;
+    backgroun
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 2%;
+    background-color: #aaa;
+    background: url(../assets/img/plomo_old.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+body img {
+    z-index: -1;
+    ;
+
+}
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+
+#nav ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+    background-color: #333;
+}
+
+#nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    width: 24%;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+#nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    padding-block-end: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#nav ul li :hover {
+    background-color: #aaa
+}
+#backplomo {
+    position: fixed;
+    top: 0;
+    z-index: -2;
+    
+}
