@@ -37,6 +37,7 @@ li {
   h1 {
       text-align: center;
       padding-bottom: 10px;
+      font-family: Gugi;
   }
 
   .content{
@@ -85,9 +86,22 @@ li {
     border-radius: .25em;
   }
   /* show more ending */
-  
+
   /* map */
   .maps{
     width: 100%;
     margin: auto;
   }
+  .images{
+    width: 39%;
+    height: 300px;
+    border-radius: 5%;
+    float: none;
+    margin: 5%;
+
+
+    
+  }
+.cont-img{
+margin-left: 2%;
+}
