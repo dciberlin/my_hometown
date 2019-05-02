@@ -11,7 +11,7 @@ background-color: white;
     margin: 5px auto;
     width: 90%;
 }
-
+/* starting menu nav */
 ul {
     text-align: center;
 }
@@ -24,7 +24,9 @@ li {
 .item {
     text-decoration: none;
     color: black;
-}
+
+}/* ending menu nav */
+
 
 .main-img {
     width: 100%;
@@ -44,11 +46,13 @@ li {
       padding-top: 60px;
       overflow: auto;
   }
+
  .his-img{
      float: left;
     margin-right: 10px;
     border-radius: 5%;
   }
+  
  /* show more starting */
   .read-more-state {
     display: none;
@@ -84,14 +88,16 @@ li {
     line-height: 2;
     border: 1px solid #ddd;
     border-radius: .25em;
-  }
-  /* show more ending */
+
+  }/* show more ending */
 
   /* map */
   .maps{
     width: 100%;
     margin: auto;
-  }
+
+  } /* ending map */
+
   .images{
     width: 39%;
     height: 300px;
@@ -105,3 +111,24 @@ li {
 .cont-img{
 margin-left: 2%;
 }
+
+/* footer */
+.linle-footer{
+    text-decoration: none;
+       color: black;
+       
+}
+.linle-footer:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.c-r{
+display: inline-block;
+padding: 15px 50px;
+
+}
+footer{
+    text-align: center;
+
+}/* ending footer */
