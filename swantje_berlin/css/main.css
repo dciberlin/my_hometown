@@ -58,11 +58,19 @@ a:visited {
 .more {
     border: 2px solid grey;
     margin-left: 440px;
+    margin-top: 50px;
     padding: 10px;
     width: 80px;
-    height: 20px;
+    /* height: 20px; */
     text-align: center;
 }
-footer {
+.h2location {
+    font-weight: normal;
+    padding-top: 50px;
+}
+.location {
     clear: both; 
+}
+footer {
+    /* clear: both;  */
 }
