@@ -34,7 +34,7 @@ html, body {
     margin: 0;     
     padding: 0;    
     position: absolute;
-    right: 11rem;
+    right: 10rem;
     top: .2rem;    
 }
 
@@ -68,3 +68,9 @@ html, body {
     text-decoration: none;
 }
 
+
+.homepage {
+    background-image: url(/assets/img/barcelona.JPG);
+    width: 100%;
+    height: auto;
+}
