@@ -1,0 +1,83 @@
+html body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    position: relative;
+        width: 80%;
+        margin: auto;
+}
+
+nav {
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+  
+nav li {
+    display: inline-block;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+header {
+    background: url(/my_hometown/florian_berlin/assets/images/Fernsehturmberlin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+ h1 {
+     position: absolute;
+     margin: 0;
+     top: 50%;
+     left: 50%;
+     transform:translate(-50%,-50%);
+ }
+
+article {
+    width: 100%;
+}
+
+article h2 {
+    margin: 0;
+}
+
+article p img {
+    float: left;
+    width:50%;
+    height:auto;
+}
+
+article p {
+    overflow: hidden;
+}
+
+article#moar {
+    vertical-align: baseline;
+}
+
+footer {
+    text-align: center;
+}
