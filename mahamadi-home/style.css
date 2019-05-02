@@ -33,7 +33,9 @@ nav a{
     color: aliceblue;
     font-size: 22px;
     font-family: 'ZCOOL KuaiLe', cursive;
-
+}
+nav a:hover{
+    background-color: black;
 }
 /*************************************************************************
 *****************                                          ***************
@@ -44,7 +46,7 @@ nav a{
 img.home-image{
     width: 60%;         
     margin-left: 260px;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 .city{
     font-size: 45px;
@@ -59,6 +61,12 @@ img.home-image{
 ***************** HERE THE history section style CUSTOMIZED***************
 *****************                                          ***************
 **************************************************************************/
+.history-start{
+    margin-top: 150px;
+}
+#section2{
+    margin-top: 50px;
+}
 h2{
     font-size: 40px;
     font-family: 'VT323', monospace;
@@ -73,11 +81,32 @@ h2{
 }
 
 .text-ouaga{
-    width: 45%;    
+    width: 45%; 
+    height: 400px;   
     float: right;
     margin-right: 55px;
     color:black;
     font-size: 20px;
+    overflow: hidden;
+    overflow: scroll;
     font-family: 'Open Sans', sans-serif;
     background-color: rgba(255,255,255,0.6);
+}
+/*************************************************************************
+*****************                                          ***************
+***************** HERE THE location section style CUSTOMIZED *************
+*****************                                          ***************
+**************************************************************************/
+.location-start{
+    margin-top: 150px;
+}
+.section3{
+    margin-top: 50px;
+}
+.carte{
+    width: 90%;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: unset;
+    
 }
