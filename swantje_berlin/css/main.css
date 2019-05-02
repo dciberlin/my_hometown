@@ -1,0 +1,17 @@
+ul {
+    font-family: 'Aref Ruqaa', serif;
+    list-style: none;
+    text-align: center;
+}
+li {
+    display: inline;
+    padding: 25px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
