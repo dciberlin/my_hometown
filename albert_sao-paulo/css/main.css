@@ -39,8 +39,8 @@ html {
     font-size: 1.5rem;
 }
 
-#intro a:hover {
-    color: tomato;
+#menu a:hover {
+    color: greenyellow;
     font-size: 1.6rem;
     margin: auto;
 }
@@ -53,5 +53,6 @@ nav ul {
 nav ul li {
     display: inline-block;
     padding: 0;
-    margin: 15px 25px 0 20px;
+    margin: 15px 25px;
 }
+
