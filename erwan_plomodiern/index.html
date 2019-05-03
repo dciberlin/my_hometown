@@ -38,36 +38,56 @@
     <div id="photos">
         <h2>Some views</h2>
         <div class="views_plomo">
-            <a href="html/parapente_in_plomodiern.html">
+            <a href="#cache_parapente">
             <img src="assets/img/parapente_menez_hom.jpg" alt="">
             </a>        
         </div>
+        <!--the div below will have "width:0" until targeted by the link in the div above, then "width:100%"" 
+        the link to #photos below is here to de-target the div and go back to normal main page on #photos anchor
+        -->
+        <div class="cache" id="cache_parapente">
+            <a href="#photos"><img src="assets/img/parapente_menez_hom.jpg" alt="parapente on Menez Hom"></a>
+        </div>
+
         <div class="views_plomo">
-            <a href="html/lestrevet_plage.html">
+            <a href="#cache_lestrevet">
             <img src="assets/img/lestrevet_pentrez.jpg" alt="">
             </a>
         </div>
+        <div class="cache" id="cache_lestrevet">
+                <a href="#photos"><img src="assets/img/lestrevet_pentrez.jpg" alt="plage of lestrevet pentrez"></a>
+        </div>
+
         <div class="views_plomo">
-            <a href="html/chapel_ste_marie.html">
+            <a href="#cache_chapel">
             <img src="assets/img/ste_marie_menez_hom.jpg" alt="">
             </a>
         </div>
+        <div class="cache" id="cache_chapel">
+                <a href="#photos"><img src="assets/img/ste_marie_menez_hom.jpg" alt="chapel ste marie"></a>
+        </div>
+
         <div class="views_plomo">
-            <a href="html/festival_menez_hom.html">
+            <a href="#cache_festival">
             <img src="assets/img/festival_menez_hom.jpg" alt="">
             </a>
         </div>
+        <div class="cache" id="cache_festival">
+                <a href="#photos"><img src="assets/img/festival_menez_hom.jpg" alt="festival"></a>
+        </div>
     </div>
+
     <div id="activities">
         <h2>Examples of activities in plomodiern and the region</h2>
         <div class="activity" id="shore_fishing">Shore fishing</div>
         <div class="activity" id="kayak">Kayak</div>
         <div class="activity" id="dance">Folkloric dancing</div>
         <div class="activity" id="beach">Beach</div>
+        <div class="activity" id="Locronan">Locronan</div>
+        <div class="activity" id="Douarnenez">Fishing int he port of Douarnenez</div>
+        <div class="activity" id="modelisme">Modelisme</div>
         
     </div>
-
-    <!--<img src="assets/img/plomo_old.jpg" alt="photos of Plomodiern back in the days" id="back_plomo">-->
 
 </body>
 </html>
