@@ -5,25 +5,21 @@
 **************************************************************************/
 .home-title{
     float: left;
-    font-size: 35px;
-    
+    margin-top: 5px;
+    font-size: 35px;    
     font-family: 'Gugi', cursive;
+    position: absolute;
 }
 h1 span{
+    margin-left: 10px;
     color: aliceblue;
+    font-size: 37px;
     font-family: 'VT323', monospace;    
-    -moz-transition: all 4s;
-    -webkit-transition: all 4s s; /* Safari */
-    transition:all;
+    }
 
-
-}
-@keyframes moi{
-
-}
 nav{
     float: right;
-    margin-right: 450px;
+    margin-right:450px;
    
     
 }
@@ -41,6 +37,7 @@ nav a{
     color: aliceblue;
     font-size: 22px;
     font-family: 'ZCOOL KuaiLe', cursive;
+    display: block;
 }
 nav a:hover{
     background-color: black;
@@ -63,6 +60,13 @@ img.home-image{
     position: absolute;
     margin-left: 450px;
     margin-top: 300px;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.15em #1da9cc;
+    user-select: none;
+    white-space: nowrap;
+    filter: blur(0.007em);
+    letter-spacing: 0.02em;
+    
 }
 /*************************************************************************
 *****************                                          ***************
@@ -165,13 +169,15 @@ h2{
 }
 .img1{
     widows: 95%;
-    margin-left: 15px;   
+    margin-left: 15px;  
+    margin-right: 150px;  
 }
 .img2{
     widows: 95%;
     margin-left: 15px; 
     margin-top: 40px;
-    clear: right;  
+    clear: right;
+    margin-right: 150px;  
 }
 .img1 img{
     width: 90%;
@@ -294,16 +300,100 @@ footer p{
 *****************                                          ***************
 **************************************************************************/
 h1 span{  
-    /* For Safari 3.1 to 6.0 */
-    -webkit-transition-property: all;
-    -webkit-transition-duration: 4s;
-    -webkit-transition-timing-function: ease-in-out;
-    -webkit-transition-delay: 0s;
-    /* Standard syntax */
-    transition-property: all;
-    transition-duration: 4s ;
-    transition-timing-function: ease-in-out; 
-    transition-delay: 0s;      
+       
+    animation: animated_text 10s infinite;
+    -moz-animation: animated_text 10s infinite;
+    -webkit-animation: animated_text 10s infinite; 
+    animation-delay: 5.5s;
+    -moz-animation-delay: 5.5s;
+    -webkit-animation-delay: 5.5s;
+    
+    
+       
+}
+@keyframes animated_text{
+    0%{
+       font-size: 40px;
+        
+    }
+    10%{
+       
+        font-size: 18px;
+        
+    }
+    20%{
+        font-size: 20px;
+    }
+    30%{
+        font-size: 28%;
+        
+    }
+    40%{
+        font-size: 34%;
+    }
+    50%{
+        font-size: 25px;
+        
+    }
+    60%{
+        font-size: 30px;
+    }
+    70%{
+        font-size: 38%;
+        
+    }
+    80%{
+        font-size:35px; 
+    }
+    90%{
+        font-size: 38px;
+    }
+    100%{
+        font-size: 42px;
+        
+    }
+}
+.theImages, .theLocation, .theHistory, .theSights{
+    animation:move;
+    -moz-animation:move;
+    -webkit-animation:move;
+    animation: animated_div 5s 1;
+    -moz-animation: animated_div 5s 1;
+    -webkit-animation: animated_div 5s 1;
+    -o-animation: animated_div 5s 1;
+   
+}
+@keyframes animated_div{
+    from {
+        margin-left: 400%;
+        width: 100%; 
+      }
+0% {
+    transform: rotate(0deg);
+    
+}
+25% {
+    transform: rotate(20deg);
+    
+}
+50% {
+    transform: rotate(0deg);
+    
+    background-color: limegreen;
+}
+55% {
+    transform: rotate(0deg);
+    
+}
+70% {
+    transform: rotate(0deg);
+    
+    background: #1ec7e6;
+}
+100% {
+    transform: rotate(-360deg);
+    
+}
 }
 
 /*************************************************************************
@@ -332,4 +422,79 @@ h1 span{
     transform: rotate(360deg);
     margin-top: 
 
+}
+/*************************************************************************
+*****************                                          ***************
+*****************             home top image animation     ***************
+*****************                                          ***************
+**************************************************************************/
+.city:hover{
+    animation: shake 2.5s linear forwards infinite ;
+    transform: translate(100% 100% 100% 100%);
+    
+    
+}
+.city::before,
+.city::after {
+    position: absolute;
+    content: attr(data-text);
+    margin-left: 450px;
+    margin-top: 300px;
+} 
+.city::before {
+    animation: crack1 2.5s linear forwards;
+    -webkit-clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
+}
+
+.city::after {
+    animation: crack2 2.5s linear forwards;
+    -webkit-clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
+            clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
+}
+@keyframes shake {
+    5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
+        filter: blur(0.018em);
+        transform: translateY(0.018em) rotate(0deg);
+    }
+
+    10%, 30%, 40%, 50%, 70%, 80%, 90% {
+        filter: blur(0.01em);
+        transform: translateY(-0.018em) rotate(0deg);
+    }
+
+    20%, 60% {
+        filter: blur(0.03em);
+        transform: translate(-0.018em, 0.018em) rotate(0deg);
+    }
+
+    45%, 85% {
+        filter: blur(0.03em);
+        transform: translate(0.018em, -0.018em) rotate(0deg);
+    }
+
+    100% {
+        filter: blur(0.007em);
+        transform: translate(0) rotate(-0.5deg);
+    }
+}
+
+@keyframes crack1 {
+    0%, 95% {
+        transform: translate(-50%, -50%);
+    }
+
+    100% {
+        transform: translate(-51%, -48%);
+    }
+}
+
+@keyframes crack2 {
+    0%, 95% {
+        transform: translate(-50%, -50%);
+    }
+
+    100% {
+        transform: translate(-49%, -53%);
+    }
 }
