@@ -68,8 +68,9 @@ a:visited {
     font-weight: normal;
     padding-top: 50px;
 }
-.location {
-    clear: both; 
+.h3images {
+    font-weight: normal;
+    padding-top: 50px;
 }
 footer {
     /* clear: both;  */
