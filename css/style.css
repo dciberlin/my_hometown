@@ -1,0 +1,228 @@
+body, html {
+height: 100%;
+margin: 0;
+font-family: Rubik; sans-serif;
+    }
+  
+.main {
+      background-color: gainsboro;
+    }
+
+  /*  Navigation   */
+
+.desktop-nav {
+position: fixed;
+top: 0;
+background-color: rgba(255,255,255,0.7);
+height: 50px; 
+width: 100%;
+z-index:9;
+}
+
+.desktop-nav a {
+  text-decoration: none;
+}
+
+.desktop-nav ul {
+margin-left: 100px;
+}
+
+.desktop-nav ul li { 
+padding-left: 10px;
+padding-right: 10px; 
+padding-top: 5px;
+padding-bottom: 50px;
+margin-right: 20px;
+font-size: 20px;
+color: blue;
+display: inline-block; 
+}
+    
+.desktop-nav a:hover { 
+color: green;  /* this doesnt work  */
+font-size: 25px;
+
+}
+
+
+/* Body */
+
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
+position: relative;
+opacity: 0.9;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  
+}
+
+
+.img-1 {
+background-image: url("/assets/img/galata-4043037_1920.jpg");
+min-height: 500px;
+} 
+  
+.img-2 {
+background-image: url("/assets/img/ancient-istanbul.jpg");
+min-height: 400px;
+}
+  
+.img-3 {
+background-image: url("/assets/img/kiz-kulesi-4151715.jpg");
+min-height: 400px;
+}
+
+.img-4 {
+background-image: url("/assets/img/raki.jpg");
+min-height: 400px;
+}
+
+.img-5 {
+background-image: url("/assets/img/street-1350410_1920.jpg");
+min-height: 400px;
+}
+
+.img-6 {
+background-image: url("/assets/img/cat-3688840_1920.jpg");
+min-height: 400px;
+}
+   
+
+.transparent {
+background-color: rgba(255,255,255,0.5);
+border-radius: 5px;
+font-size:40px;
+letter-spacing: 5px;
+color: blue;
+z-index: 2;
+    
+}
+
+.rel {
+position:relative;
+color: black;
+background-color: gainsboro;
+text-align:center;
+letter-spacing: 2px;
+padding:50px 80px;
+text-align: justify;
+}
+
+.caption {
+position: absolute;
+left: 0;
+top: 50%;
+width: 100%;
+text-align: center;
+color: #000;
+  }
+  
+  
+.welcome {
+text-align: center;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #111;
+  }
+
+.change:hover {
+font-size: 20px;
+color: green;
+}
+
+
+  /* Location */
+
+.frame {
+padding-top: 100px;
+padding-left: 130px;
+  }
+
+  /* Photos */
+
+
+.close {
+padding-top: 80px;
+font-size: 20px;
+text-align: center;
+color: blue;
+  }
+
+  .photoss {
+  padding-left: 120px;
+    display: inline-block;
+
+  }
+
+  .photoss div {
+    margin: 25px;
+  }
+  
+  .photoss img {
+    width: 400px;
+height: 300px;
+margin: 10px;
+  }
+
+  .photoss img:hover {
+    border: 1px solid #777;
+  } 
+  
+  .desc {
+    
+    width: 400px;
+    text-align: center;
+  }
+
+
+  /* Footer */
+
+  hr {
+border: 0;
+height: 1px;
+background-image: linear-gradient(to right, #fff, #333, #fff);
+margin: 10px 0;
+    }
+
+.foot {
+        
+text-align: center;
+padding-bottom: 5px;
+    
+}
+
+#ref {
+color: black;
+padding-bottom: 5px;
+padding-left: 30px;
+
+}
+.linked {
+font-size: 40px;
+padding-bottom: 5px;
+}
+
+.uline a {
+
+text-decoration: underline;
+color: blue;
+
+
+}
+
+.uline p {
+
+padding-left: 25px;
+padding-right: 10px; 
+padding-top: 2px;
+padding-bottom: 5px;
+margin-right: 5px;
+font-size: 10px;
+
+}
+
+.fa-linkedin {
+color: #0e76a8 ;
+}
+
