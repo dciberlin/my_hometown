@@ -72,6 +72,31 @@ a:visited {
     font-weight: normal;
     padding-top: 50px;
 }
+
+.column img {
+    width: 23%;
+    height: 150px;
+    border-radius: 8px;
+    padding: 5px;
+    float: left;
+    display: inline;
+}
+
+div.footer {
+    background-color: cadetblue;
+}
 footer {
-    /* clear: both;  */
+    clear: left; 
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 26px;
+    float: left;
+}
+footer img {
+    width: auto;
+    height: auto;
+    margin-left: 40px;
+    padding: 30px;
 }
