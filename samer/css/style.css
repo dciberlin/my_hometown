@@ -6,11 +6,10 @@
 
 body{
 background-color: white;
+margin: 5px auto;
+width: 90%;
 }
-.maim-body {
-    margin: 5px auto;
-    width: 90%;
-}
+
 /* -----------------------starting menu nav------------------- */
 .menu{
     background: rgb(245,246,246); /* Old browsers */
@@ -19,12 +18,16 @@ background-color: white;
     background: linear-gradient(to bottom, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 );
     border-radius: 10px;
+    box-shadow: -1px 6px 3px rgba(124, 120, 120, 0.3);
+    position: fixed;
+    width: 90%;
+
 }
 ul {
     text-align: center;
 }
 li {
-    text-decoration: none;
+    
     display: inline-block;
     padding: 15px 50px;
 
@@ -32,11 +35,15 @@ li {
 .item {
     text-decoration: none;
     color: rgb(59, 2, 2);
+    padding: 15px;
 
 }
 .item:hover{
-
-
+    background: rgb(252,236,252); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 100%, rgba(255,124,216,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(252,236,252,1) 0%,rgba(251,166,225,1) 50%,rgba(253,137,215,1) 100%,rgba(255,124,216,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(252,236,252,1) 0%,rgba(251,166,225,1) 50%,rgba(253,137,215,1) 100%,rgba(255,124,216,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8',GradientType=0 );
 }
 /* ---------------------------ending menu nav -----------------------*/
 
@@ -45,8 +52,7 @@ li {
     width: 100%;
     padding-top: 15px;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
-    display: block;
-    margin: auto;
+margin-top: 50px;
     
   }
 
@@ -66,6 +72,7 @@ color: #999;
 .content{
       padding-top: 60px;
       overflow: auto;
+      
   }
 
  .his-img{
@@ -134,11 +141,13 @@ color: #999;
 text-align: center
 }
 
+/* ----------------------------sights section---------------------- */
 .sights{
-    width: 90%;
-    margin: auto;
-    display: block;
+    width: 25%;
+    height: 200px;
+    display: inline;
     border-radius: 10px;
+    border: solid black ;
     }
 
 /* ---------------------------footer------------------------ */
