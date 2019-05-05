@@ -9,6 +9,8 @@ GRAY #808080;
 
 html {
     border: 0.2px solid rgba(128, 128, 128, 0.5);
+    scroll-behavior: smooth;
+
 }
 
 html, body {
@@ -20,16 +22,18 @@ html, body {
          
 }
 
+/*
 * {
     box-sizing: border-box;
 }
-
+*/
 
 section {
     width: 100%;
-    height: 800px;
+    height: 300px;
     position: relative;
-    
+    margin-top: 0.1rem;
+        
 }
 
 section > h1 {
@@ -45,46 +49,45 @@ section > h1 {
 .header-nav {
     width: 100%;
     height: 30px;
-    position: relative;
+    /*position: relative;*/
     background-color: #FFF;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 1rem;       
 } 
 
-.header-nav > ul {
+#home > .header-nav > ul {
     margin: 0;     
-    padding: 0;    
-    position: absolute;
+    padding: 0;      
     right: 10rem;
     top: .2rem;    
 }
 
-.header-nav > ul > li {
+#home > .header-nav > ul > li {
     display: inline-block;
 }
 
-.header-nav > ul > li > a {
+#home > .header-nav > ul > li > a {
     font-size: .5rem; 
     margin-right: 1rem; 
-    text-transform: lowercase;  
+    text-transform: lowercase;      
 }
 
-.header-nav > ul > li > a:link {
+#home > .header-nav > ul > li > a:link {
     color: #808080;
     text-decoration: none;
 }
 
-.header-nav > ul > li > a:hover {
+#home > .header-nav > ul > li > a:hover {
     color: turquoise;
     text-decoration: none;
 }
 
-.header-nav > ul > li > a:active {
+#home > .header-nav > ul > li > a:active {
     color: tomato;
     text-decoration: none;
 }
 
-.header-nav > ul > li > a:visited {
+#home > .header-nav > ul > li > a:visited {
     color: #808080;
     text-decoration: none;
 }
@@ -108,7 +111,39 @@ section > .homepage {
     letter-spacing: .1rem;
     font-family: 'Marck Script', cursive;
     font-weight: normal;
-    width: 300px;
+    /*width: 100px;*/
+    margin: 0;
 }
+
+section > p {
+    display: inline-block;
+    font-size: 8px;
+    position: absolute;
+    margin-left: 5px;
+    padding: 2px;
+}
+
+.history_foto {
+    border-radius: 2px;
+    margin-left: 0.2rem 0.1rem;
+    width: 240px;
+    height: auto;
+}
+
+#myBtn {
+    cursor:pointer;
+    border-top: solid 0.5px #000;
+    padding:3px;
+    font-size:5px;    
+    position: absolute;
+    bottom: 7rem;
+    right: 43%;     
+}
+
+#myBtn > a {
+    text-decoration: none;
+    color: grey;
+}
+
 
 
