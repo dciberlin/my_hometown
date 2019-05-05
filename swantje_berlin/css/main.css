@@ -4,11 +4,13 @@ body {
     margin-bottom: 0;
     margin-left: 150px;
 }
+
 ul {
     font-family: 'Aref Ruqaa', serif;
     list-style: none;
     text-align: center;
 }
+
 li {
     display: inline;
     padding: 25px;
@@ -18,19 +20,27 @@ a:link {
     text-decoration: none;
     color: black;
 }
+
 a:hover {
     background-color: rgb(231, 231, 179);
     color: rgb(154, 192, 190);
     border-radius: 3px;
-  
-}
+  }
+
 a:active {
     background-color: chocolate;
     color: rgb(255, 255, 255);
 }
+
 a:visited {
     color: black;
 }
+
+.back {
+    float: right;
+    font-style: italic; 
+}
+
 .berlinbild {
     position: relative;
     width: 100%;
@@ -38,6 +48,7 @@ a:visited {
     margin-left: auto;
     margin-right: auto;
 }
+
 #berlin {
     position: absolute;
     color: #dee4eb;
@@ -48,14 +59,14 @@ a:visited {
     top: 50%;
     transform: translate(-50%, -50%)
 }
-#back {
-    float: right;
-    font-style: italic; 
-}
+
+/* history */
+
 .h1history {
     font-weight: normal;
     padding-top: 70px;
 }
+
 .mauer {
     width: 400px;
     height: 300px;
@@ -64,11 +75,13 @@ a:visited {
     /* box-shadow: 1px 1px 1px 1px; */
     /* margin-right: 30px; */
 }
+
 .phistory {
     font-size: 20px;
     margin-left: 440px;
     
 }
+
 .morehistory {
     border: 2px solid grey;
     margin-left: 440px;
@@ -78,10 +91,16 @@ a:visited {
     /* height: 20px; */
     text-align: center;
 }
+
+/* location */
+
 .h2location {
     font-weight: normal;
     padding-top: 70px;
 }
+
+/* images */
+
 .h3images {
     font-weight: normal;
     padding-top: 70px;
@@ -100,19 +119,25 @@ a:visited {
 .row1 {
     margin-left: -5px;
     margin-right: -5px;
+    /* margin-bottom: 60px; */
 }
-.row1::after {
-    padding-bottom: 60px;
-}
+/* .row1::after {
+    margin-bottom: 60px;
+} */
+
+/* sights */
 
 .h4sights {
     font-weight: normal;
     padding-top: 70px;
-    /* margin-top: 50px; */
+    margin-top: 50px;
 }
+
 .row2 {
     margin-left: -5px;
+    margin-top: 60px;
 }
+
 .column2 img {
     width: 23%;
     height: 150px;
@@ -121,38 +146,37 @@ a:visited {
     float: left;
     display: inline;
 }
+
 .moresights {
     border: 2px solid grey;
     border-radius: 8px;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 70px;
     margin-left: 5px;
     padding: 10px;
     width: 80px;
-    /* height: 20px; */
     text-align: center;
     clear: both;
     float: left;
 }
+
+/* footer */
 .unten footer {
-    background-color: rgb(226, 193, 84);
-    /* margin-bottom: 0px; */
+    background-color: rgb(18, 78, 105, 0.7);
     padding-bottom: 7px;
-    padding-top: 7px;
-    /* height: 50px;
-    margin-bottom: 0; */
-   
+    padding-top: 7px;   
 }
+
 footer {
     clear: both; 
-    
 }
 
 footer p {
     font-size: 26px;
     font-weight: bold;
     text-align: center;
-    
 }
+
 footer img {
     margin-left: 40px;
 }
