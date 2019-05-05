@@ -18,6 +18,16 @@ a:link {
     text-decoration: none;
     color: black;
 }
+a:hover {
+    background-color: rgb(231, 231, 179);
+    color: rgb(154, 192, 190);
+    border-radius: 3px;
+  
+}
+a:active {
+    background-color: chocolate;
+    color: rgb(255, 255, 255);
+}
 a:visited {
     color: black;
 }
@@ -84,6 +94,12 @@ a:visited {
     padding: 5px;
     float: left;
     display: inline;
+    /* box-shadow: 5px 5px 2px #aaa; */
+    }
+
+.row1 {
+    margin-left: -5px;
+    margin-right: -5px;
 }
 .row1::after {
     padding-bottom: 60px;
@@ -93,6 +109,9 @@ a:visited {
     font-weight: normal;
     padding-top: 70px;
     /* margin-top: 50px; */
+}
+.row2 {
+    margin-left: -5px;
 }
 .column2 img {
     width: 23%;
@@ -105,7 +124,6 @@ a:visited {
 .moresights {
     border: 2px solid grey;
     border-radius: 8px;
-    /* margin-left: 440px; */
     margin-top: 50px;
     margin-left: 5px;
     padding: 10px;
@@ -113,16 +131,19 @@ a:visited {
     /* height: 20px; */
     text-align: center;
     clear: both;
+    float: left;
 }
 .unten footer {
     background-color: rgb(226, 193, 84);
     /* margin-bottom: 0px; */
     padding-bottom: 7px;
     padding-top: 7px;
+    /* height: 50px;
+    margin-bottom: 0; */
    
 }
 footer {
-    clear: left; 
+    clear: both; 
     
 }
 
