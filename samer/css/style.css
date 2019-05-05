@@ -147,9 +147,39 @@ text-align: center
     height: 200px;
     display: inline;
     border-radius: 10px;
-    border: solid black ;
+    border: solid black 1px;
     }
 
+    /* ----------------------------gallery section---------------------- */
+.gal{
+
+    width: 800px;
+    height: 535px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.slide-container{
+  width: 800px;
+  height: 600px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+
+}
+.img-container{
+
+  width: 15200px;
+  height: 600px;
+  position: relative;
+  transition: left 2s;
+}
+.button-cont{
+
+
+}
 /* ---------------------------footer------------------------ */
 .linle-footer{
     text-decoration: none;
