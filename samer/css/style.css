@@ -1,6 +1,7 @@
 *, body, html{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 
 }
 
@@ -141,6 +142,7 @@ color: #999;
 text-align: center
 }
 
+
 /* ----------------------------sights section---------------------- */
 .sights{
     width: 25%;
@@ -162,23 +164,91 @@ text-align: center
 .slide-container{
   width: 800px;
   height: 600px;
-  /* margin-left: auto;
-  margin-right: auto; */
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
   overflow: hidden;
   text-align: center;
 
 }
 .img-container{
-
   width: 15200px;
   height: 600px;
-  position: relative;
+  position: relative; 
   transition: left 2s;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
 }
 .button-cont{
+  top: -85px;
+  position: relative;
 
+}
 
+.slider-button{
+  display: inline-block;
+  height: 11px;
+  width: 11px;
+  border-radius: 5px;
+  background-color: red;
+
+}
+
+#img1:target ~ .img-container{
+  left: 0px;
+}
+
+#img2:target ~ .img-container{
+  left: -800px;
+}
+#img3:target ~ .img-container{
+  left: -1600px;
+}
+#img4:target ~ .img-container{
+  left: -2400px;
+}
+#img5:target ~ .img-container{
+  left: -3200px;
+}
+#img6:target ~ .img-container{
+  left: -4000px;
+}
+#img7:target ~ .img-container{
+  left: -4800px;
+}
+#img8:target ~ .img-container{
+  left: -5600px;
+}
+#img9:target ~ .img-container{
+  left: -6400px;
+}
+#img10:target ~ .img-container{
+  left: -7200px;
+}
+#img11:target ~ .img-container{
+  left: -8000px;
+}
+#img12:target ~ .img-container{
+  left: -8800px;
+}
+#img13:target ~ .img-container{
+  left: -9600px;
+}
+#img14:target ~ .img-container{
+  left: -10400px;
+}
+#img15:target ~ .img-container{
+  left: -11200px;
+}
+#img16:target ~ .img-container{
+  left: -12000px;
+}
+#img17:target ~ .img-container{
+  left: -12800px;
+}
+#img18:target ~ .img-container{
+  left: -13600px;
 }
 /* ---------------------------footer------------------------ */
 .linle-footer{
@@ -207,4 +277,7 @@ footer{
     text-align: center;
 
 }/* ------------------------ending footer--------------------- */
+
+
+
 
