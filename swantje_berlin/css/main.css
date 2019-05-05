@@ -55,7 +55,7 @@ a:visited {
     margin-left: 440px;
     
 }
-.more {
+.morehistory {
     border: 2px solid grey;
     margin-left: 440px;
     margin-top: 50px;
@@ -73,7 +73,7 @@ a:visited {
     padding-top: 50px;
 }
 
-.column img {
+.column1 img {
     width: 23%;
     height: 150px;
     border-radius: 8px;
@@ -81,22 +81,53 @@ a:visited {
     float: left;
     display: inline;
 }
+.row1::after {
+    padding-bottom: 60px;
+}
 
-div.footer {
-    background-color: cadetblue;
+.h4sights {
+    font-weight: normal;
+    padding-top: 50px;
+    /* margin-top: 50px; */
+}
+.column2 img {
+    width: 23%;
+    height: 150px;
+    border-radius: 8px;
+    padding: 5px;
+    float: left;
+    display: inline;
+}
+.moresights {
+    border: 2px solid grey;
+    border-radius: 8px;
+    /* margin-left: 440px; */
+    margin-top: 50px;
+    margin-left: 5px;
+    padding: 10px;
+    width: 80px;
+    /* height: 20px; */
+    text-align: center;
+    clear: both;
+}
+.unten footer {
+    background-color: rgb(226, 193, 84);
+    /* margin-bottom: 0px; */
+    padding-bottom: 7px;
+    padding-top: 7px;
+   
 }
 footer {
     clear: left; 
-    margin-top: 30px;
+    
 }
 
 footer p {
     font-size: 26px;
-    float: left;
+    font-weight: bold;
+    text-align: center;
+    
 }
 footer img {
-    width: auto;
-    height: auto;
     margin-left: 40px;
-    padding: 30px;
 }
