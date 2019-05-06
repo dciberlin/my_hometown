@@ -1,18 +1,23 @@
-html body {
-    width: 100%;
+html {
+    scroll-behavior:smooth;
+    font-family: 'Sintony', sans-serif;
+}
+
+body {
     margin: 0;
-    padding: 0;
+    top:0;
+    left:0;
 }
 
 #wrapper {
-    position: relative;
-        width: 80%;
-        margin: auto;
+    width: 95%;
+    margin: auto;
 }
 
 nav {
     top: 0;
     width: 100%;
+    margin-top: 25px;
 }
 
 nav ul {
@@ -25,59 +30,204 @@ nav ul {
   
 nav li {
     display: inline-block;
-    text-align: center;
+    color: black;
+    text-align: center; 
 }
 
 nav a {
     text-decoration: none;
+    color: black;
     display: block;
-}
-
-nav a:hover {
-    background-color: black;
-    color: white;
+    padding: 0 50px;
+    text-align: center;
 }
 
 header {
-    background: url(/my_hometown/florian_berlin/assets/images/Fernsehturmberlin.jpg);
+    background: url(/florian_berlin/assets/images/Fernsehturmberlin.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     text-align: center;
-    height: 450px;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+h1 {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    height: 300px;
     width: 100%;
     position: relative;
 }
- h1 {
-     position: absolute;
-     margin: 0;
-     top: 50%;
-     left: 50%;
-     transform:translate(-50%,-50%);
- }
 
-article {
+.history-box1 {
+    position: absolute;
+    width: 42.5%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.history-bild {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
     width: 100%;
+    border-radius: 1%;
+    box-shadow: 4px 4px 4px lightgrey;
 }
 
-article h2 {
-    margin: 0;
+.history-box2 {
+    position: absolute;
+    width: 55.5%;
+    height: 80%;
+    top: 0;
+    right: 0;
 }
 
-article p img {
-    float: left;
-    width:50%;
-    height:auto;
+.history-button {
+    position: absolute;
+    bottom: 0;
+    left: 44.5%;
 }
 
-article p {
-    overflow: hidden;
+.history-button a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 12.5px 25px;
 }
 
-article#moar {
-    vertical-align: baseline;
+.history-button a:hover {
+    color: white;
+    background-color: black;
+} 
+
+.images-bild1 {
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.images-bild2 {
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+.images-bild3 {
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+
+.images-bild4 {
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+
+.images-bild5 {
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 80%;
+}
+
+.images-image {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 1%;
+    box-shadow: 4px 4px 4px lightgrey;
+}
+
+.sights-images1 {
+    height: 100%;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.sights-images2 {
+    height: 100%;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 33.3%;
+    text-align: center;
+}
+
+.sights-images3 {
+    height: 100%;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 66.6%;
+    text-align: center;
 }
 
 footer {
-    text-align: center;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 125px;
+    color: white;
+}
+
+footer > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    transform:translate(-50%,-50%);
 }
