@@ -1,7 +1,9 @@
 body, html {
 height: 100%;
+width: 100%;
 margin: 0;
 font-family: Rubik; sans-serif;
+font-size: 25px;
     }
   
 .main {
@@ -14,7 +16,8 @@ font-family: Rubik; sans-serif;
 position: fixed;
 top: 0;
 background-color: rgba(255,255,255,0.7);
-height: 50px; 
+padding-left: 210px;
+height: 70px; 
 width: 100%;
 z-index:9;
 }
@@ -23,9 +26,6 @@ z-index:9;
   text-decoration: none;
 }
 
-.desktop-nav ul {
-margin-left: 100px;
-}
 
 .desktop-nav ul li { 
 padding-left: 10px;
@@ -33,16 +33,17 @@ padding-right: 10px;
 padding-top: 5px;
 padding-bottom: 50px;
 margin-right: 20px;
-font-size: 20px;
+font-size: 25px;
 color: blue;
 display: inline-block; 
 }
     
 .desktop-nav a:hover { 
 color: green; 
-font-size: 23px;
+font-size: 28px;
 
 }
+
 
 
 /* Body */
@@ -148,8 +149,8 @@ text-align: center;
 color: blue;
   }
 
-  .photoss {
-  padding-left: 120px;
+.photoss {
+  padding-left: 90px;
     display: inline-block;
 
   }
