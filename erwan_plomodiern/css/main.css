@@ -115,6 +115,7 @@ footer {
 }
 #activities {
     padding-top: 40px;
+    clear: left; /*to clear the float left of the images above*/
 }
 #photos {
     padding-top: 40px;
@@ -222,6 +223,16 @@ in the view section */
 
 /*this part is about responsivity*/
 
+@media screen and (max-width: 800px) {
+    .views_plomo {
+        width: 33%;
+        min-height: 170px;
+    }
+    .activity {
+        width: 33%;
+    }
+  }
+
 @media screen and (max-width: 450px) {
     .views_plomo {
         width: 50%;
@@ -231,3 +242,5 @@ in the view section */
         width: 50%;
     }
   }
+
+  
