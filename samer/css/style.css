@@ -22,6 +22,7 @@ width: 90%;
     box-shadow: -1px 6px 3px rgba(124, 120, 120, 0.3);
     position: fixed;
     width: 90%;
+    z-index: 100;
 
 }
 ul {
@@ -277,7 +278,3 @@ footer{
     text-align: center;
 
 }/* ------------------------ending footer--------------------- */
-
-
-
-
