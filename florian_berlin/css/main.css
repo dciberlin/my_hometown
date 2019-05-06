@@ -98,11 +98,17 @@ section {
     height: 80%;
     top: 0;
     right: 0;
+    overflow: hidden;
+}
+
+.history-box2 p {
+    margin: 0;
+    vertical-align: baseline;
 }
 
 .history-button {
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     left: 44.5%;
 }
 
