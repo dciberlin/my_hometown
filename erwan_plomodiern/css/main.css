@@ -78,7 +78,7 @@ iframe {
     height:300px;
     padding-left: 4%; 
 }
-/*the buffer div is there to "clear" the float left*/
+/*the buffer div is there to "clear" the float left before acting on footer*/
 #buffer {
     clear: left;
 }
@@ -88,6 +88,7 @@ footer {
     background-color: #333;
     transform: translateX(-1%);
     margin-top: 20px;
+    
 }
 #para1 {
     background-color: #333;
@@ -150,11 +151,10 @@ footer {
 .activity {
     display: inline-block;
     width: 25%;
+    height: 180px;
     float: left;
-    height: 50px;
     vertical-align: bottom;
     text-align: center;
-    padding: 30px 0;
     font-size: 15px;
     font-weight: 700;
     background-color: rgba(204, 204, 204, 0.6);
@@ -163,6 +163,18 @@ footer {
     transform: scale(1.1);
     background-color: rgba(156, 156, 156, 0.6);
     transition-duration: 0.6s;
+}
+.activity img {
+    display: block;
+    width: 98%;
+    object-fit: scale-down;
+    z-index: -1;
+    transform: translateY(10px);
+}
+.activity p {
+    display: block;
+    width: 98%;
+    z-index: 10;
 }
 
 .img_alone {
@@ -221,8 +233,34 @@ in the view section */
     padding-top: 80px;
 }
 
+.cache2 {
+    width: 0;
+    overflow: hidden;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(204, 204, 204, 0.5);    
+    padding-top: 100px;
+    transition: 0.6s;
+}
+.cache2 img {
+    max-width: 800px;
+    max-height: 85%;
+    width:90%;
+    object-fit: contain;
+}
+#cache_peche:target {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    padding-top: 80px;
+}
+
 /*this part is about responsivity*/
 
+/*the first one is more for the fun of it since it's not
+really clean to have 3 images on one line and then 1 alone*/
 @media screen and (max-width: 800px) {
     .views_plomo {
         width: 33%;
@@ -230,6 +268,7 @@ in the view section */
     }
     .activity {
         width: 33%;
+        margin: auto;
     }
   }
 
