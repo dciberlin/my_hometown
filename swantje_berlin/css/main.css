@@ -5,10 +5,11 @@ body {
     margin-left: 150px;
 }
 
-ul {
+div ul {
     font-family: 'Aref Ruqaa', serif;
     list-style: none;
     text-align: center;
+    /* width: 100%; */
 }
 
 li {
@@ -62,9 +63,14 @@ a:visited {
 
 /* history */
 
+/* .history {
+    width: 100%;
+}
+ */
 .h1history {
     font-weight: normal;
     padding-top: 70px;
+    /* width: 100%; */
 }
 
 .mauer {
@@ -99,11 +105,21 @@ a:visited {
     padding-top: 70px;
 }
 
+/* .location {
+    width: 100%;
+} */
 /* images */
 
 .h3images {
     font-weight: normal;
     padding-top: 70px;
+}
+
+.row1 {
+    margin-left: -5px;
+    margin-right: -5px;
+    /* width: 100%; */
+    /* margin-bottom: 60px; */
 }
 
 .column1 img {
@@ -113,14 +129,10 @@ a:visited {
     padding: 5px;
     float: left;
     display: inline;
+    object-fit: cover;
     /* box-shadow: 5px 5px 2px #aaa; */
     }
 
-.row1 {
-    margin-left: -5px;
-    margin-right: -5px;
-    /* margin-bottom: 60px; */
-}
 /* .row1::after {
     margin-bottom: 60px;
 } */
