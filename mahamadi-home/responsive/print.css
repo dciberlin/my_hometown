@@ -1,6 +1,10 @@
-@media screen and (max-width:900px){
+
+ /* small phone: form 0 to 480px */
+ @media screen and (max-width:480px){
    body{
-       width: 100%;       
+       width: 100%;   
+       z-index: 9999; 
+       background-image: none;   
    }
    header{
        width:100%;
@@ -17,13 +21,13 @@
 *****************                                          ***************
 **************************************************************************/
    .home-title ,span{  
-       visibility: visible; 
+       display: block;
    } 
    .home-title{
-       visibility: hidden;
-       -webkit-backface-visibility: hidden;
-       backface-visibility: hidden;
-       -moz-backface-visibility: hidden;
+       display: none;
+   }
+   nav{
+       display: none;
    }
    #div1{
        width: 30%;
@@ -55,6 +59,7 @@
         -webkit-animation-delay: 0s;      
            
     }
+
     
 
     .theImages, .theLocation, .theHistory, .theSights{
@@ -66,9 +71,139 @@
         -webkit-animation: animated_div 0s ;
         -o-animation: animated_div 0s ;
     }
+/*************************************************************************
+*****************                                          ***************
+*****************HERE THE home top image style CUSTOMIZED  ***************
+*****************                                          ***************
+**************************************************************************/
     
-    
-    .home-image,
-    
+   #section1{
+       width: 100%;
+   }
 
+   img.home-image{
+       width: 100%;
+       margin-left: 0%;
+       margin-top: 10%;
+   }
+   .city{
+       font-size: 100%;
+       position: absolute;
+       margin-left: 25%;
+       margin-top: 30%;
+
+   }
+/*************************************************************************
+*****************                                          ***************
+***************** HERE THE history section style CUSTOMIZED***************
+*****************                                          ***************
+**************************************************************************/
+.history-start{
+    
+    width: 100%;
+    margin-top: 5%;
+    border: 10px solid #404241;
+}
+#section2{
+    margin-top: 2%;
+    width: 100%;
+    background-color:  #404241;
+}
+h2{
+    font-size: 200%;
+    color: #b71481;
+    
+}
+.masque{
+    width: 100%;
+    margin-left:0%;
+}
+.text-ouaga{
+    width: 98%;
+    margin-left: 1%;
+    word-spacing: -0px;
+    text-justify: 
+    
+}
+/*************************************************************************
+*****************                                          ***************
+***************** HERE THE location section style CUSTOMIZED *************
+*****************                                          ***************
+**************************************************************************/
+.location-start{
+    margin-top: 5%;
+    width: 100%;
+    border: 10px solid #404241;
+}
+#Location{
+    margin-top: 5%;
+}
+.carte{
+    width: 100%;   
+    margin:0%;     
+}
+/*************************************************************************
+*****************                                          ***************
+***************** HERE THE image section style CUSTOMIZED  ***************
+*****************                                          ***************
+**************************************************************************/
+.image-title{
+    margin-top: 5%;
+    width: 100%;
+    border: 10px solid #404241;
+}
+#image_block{
+    margin-top: 10%;
+    width:100%;
+}
+.contenar{
+    width:100%;
+}
+.contenar div{
+    float: right;
+    width:50%;
+    border: dotted;
+    
+}
+.contenar div img{
+    width:100%;
+    height:150px;
+}
+.contenar2{
+    width:100%;
+    
+}
+.contenar2 div{
+    float: right;
+    width:50%;
+    border: dotted;
+}
+.contenar2 div img{
+    width:100%;
+    height:150px;
+}
+
+
+
+
+
+/*************************************************************************
+*****************                                          ***************
+***************** HERE THE Sights style CUSTOMIZED         ***************
+*****************                                          ***************
+**************************************************************************/
+.sights{
+    clear: both;
+    margin-top: 55%;
+    width: 100%;
+    border: 10px solid #404241;
+}
+#Sights{
+    width:100%;
+    margin-top: 10%;
+    background-color: #404241;
+}
+.contenar3{
+    width:100%;
+}
 }

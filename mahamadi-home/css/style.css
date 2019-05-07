@@ -100,7 +100,7 @@ h2{
 }
 .text-ouaga p{
     font-family: 'Open Sans', sans-serif;
-    text-align: justify;
+    text-align: start;
 }
 .read-more-state {
     display: none;
@@ -132,6 +132,7 @@ h2{
     line-height: 2;
     border: 1px solid #ddd;
     border-radius: .25em;
+     
   }
 /*************************************************************************
 *****************                                          ***************
@@ -140,125 +141,29 @@ h2{
 **************************************************************************/
 .location-start{
     margin-top: 150px;
+    clear: both;
 }
 .section3{
     margin-top: 50px;
+   
 }
 .carte{
     width: 90%;
-    margin-left: 50px;
-   
-    
+    margin-left: 50px;     
 }
 /*************************************************************************
 *****************                                          ***************
 ***************** HERE THE image section style CUSTOMIZED  ***************
 *****************                                          ***************
 **************************************************************************/
-.section4{
-    width: 100%;
-    height: 600px;
-    margin-top: 100px;
-    background-color: rgba(255,255,255,0.6);
-}
-.image-start{
-    margin-top: 150px;
-}
-.img1{
-    widows: 95%;
-    margin-left: 15px;  
-    margin-right: 150px;  
-}
-.img2{
-    widows: 95%;
-    margin-left: 15px; 
-    margin-top: 40px;
-    clear: right;
-    margin-right: 150px;  
-}
-.img1 img{
-    width: 90%;
-    height: 100%;    
-    border-radius: 10px;
-    border: ridge;  
-    margin-top: 10px;  
-    border-color:wheat; 
 
-}
-.img1 div{
-    width: 18%;
-    height: 200px;
-    float: right;
-}
-.img2 img{
-    width: 90%;
-    height: 100%;    
-    border-radius: 10px;  
-    border: ridge;  
-    margin-top: 65px; 
-    border-color:wheat; 
-     
-  
-}
-.img2 div{    
-    width: 18%;
-    height: 200px;
-    float: right;
-}
 
-.img2 a{
-    text-decoration: none;
-    color: wheat;
-}
-.img2 a:link {
-    text-decoration: none;
-    color: wheat;
-  }
-  
-  .img2 a:visited {
-    text-decoration: none;
-    color: wheat;
-  }
-.img1 a:link {
-    text-decoration: none;
-    color: wheat;
-  }
-  
-  .img1 a:visited {
-    text-decoration: none;
-    color: wheat;
-  }
 /*************************************************************************
 *****************                                          ***************
 ***************** HERE THE Sights style CUSTOMIZED         ***************
 *****************                                          ***************
 **************************************************************************/
-.sights-start{
-    margin-top: 150px;
-}
-.section5{
-    width: 100%;
-    height: 500px;
-    background-color: rgba(255,255,255,0.6);
-}
-.sights{
-    margin-right: 70px;
-}
-.sights div{
-    width: 30%;
-    height: 300px;
-    float: right;
-    margin-top: 100px;
-}
-.sights img{
-    width: 90%;
-    height:100%;
-    border-radius: 15px;
-}
-.sights div p{
-    font-size: 20px;
-    font-family: 'Monoton', cursive;
-}
+
 
 
 /*************************************************************************
@@ -267,7 +172,7 @@ h2{
 *****************                                          ***************
 **************************************************************************/
 footer{
-    margin-top: 200px;
+    margin-top: 5%;
 }
 footer h3{
     color: aliceblue;
@@ -277,237 +182,4 @@ footer p{
 }
 footer p{
     margin-left: 40%;
-}
-/*************************************************************************
-*****************                                          ***************
-*****************  Welcom to the animation section         ***************
-*****************                                          ***************
-********************                                    ******************
-                    *                                  *
-                       *                             *
-                          *                       *
-                            *                  *
-                               *             *
-                                  *       *
-                                     *  *
-                                       */
-/*************************************************************************
-*****************                                          ***************
-*****************             Menu nav animation           ***************
-*****************                                          ***************
-**************************************************************************/
-h1 span{  
-       
-    animation: animated_text 10s infinite;
-    -moz-animation: animated_text 10s infinite;
-    -webkit-animation: animated_text 10s infinite; 
-    animation-delay: 5.5s;
-    -moz-animation-delay: 5.5s;
-    -webkit-animation-delay: 5.5s;
-    
-    
-       
-}
-@keyframes animated_text{
-    0%{
-       font-size: 40px;
-        
-    }
-    10%{
-       
-        font-size: 18px;
-        
-    }
-    20%{
-        font-size: 20px;
-    }
-    30%{
-        font-size: 28%;
-        
-    }
-    40%{
-        font-size: 34%;
-    }
-    50%{
-        font-size: 25px;
-        
-    }
-    60%{
-        font-size: 30px;
-    }
-    70%{
-        font-size: 38%;
-        
-    }
-    80%{
-        font-size:35px; 
-    }
-    90%{
-        font-size: 38px;
-    }
-    100%{
-        font-size: 42px;
-        
-    }
-}
-.theImages, .theLocation, .theHistory, .theSights{
-    animation:move;
-    -moz-animation:move;
-    -webkit-animation:move;
-    animation: animated_div 5s 1;
-    -moz-animation: animated_div 5s 1;
-    -webkit-animation: animated_div 5s 1;
-    -o-animation: animated_div 5s 1;
-   
-}
-@keyframes animated_div{
-    from {
-        margin-left: 400%;
-        width: 100%; 
-      }
-0% {
-    transform: rotate(0deg);
-    
-}
-25% {
-    transform: rotate(20deg);
-    
-}
-50% {
-    transform: rotate(0deg);
-    
-    background-color: limegreen;
-}
-55% {
-    transform: rotate(0deg);
-    
-}
-70% {
-    transform: rotate(0deg);
-    
-    background: #1ec7e6;
-}
-100% {
-    transform: rotate(-360deg);
-    
-}
-}
-
-/*************************************************************************
-*****************                                          ***************
-*****************             images animation             ***************
-*****************                                          ***************
-**************************************************************************/
-.img1 div:hover{
-    width: 23%;
-    height: 270px;
-    -webkit-transform: rotate(360deg); /* Safari */
-    transform: rotate(360deg);
-}
-.img1 div{
-    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
-    transition: width 2s, height 2s, transform 2s;
-}
-.img2 div{
-    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
-    transition: width 2s, height 2s, transform 2s;
-}
-.img2 div:hover{
-    width: 23%;
-    height: 270px;
-    -webkit-transform: rotate(360deg); /* Safari */
-    transform: rotate(360deg);
-    margin-top: 
-
-}
-/*************************************************************************
-*****************                                          ***************
-*****************             home top image animation     ***************
-*****************                                          ***************
-**************************************************************************/
-.city:hover{
-    animation: shake 2.5s linear forwards infinite ;
-    transform: translate(100% 100% 100% 100%);
-    
-    
-}
-.city::before,
-.city::after {
-    
-    
-    margin-left: 450px;
-    margin-top: 300px;
-} 
-.city::before {
-    animation: crack1 2.5s linear forwards;
-    -webkit-clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
-            clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
-}
-
-.city::after {
-    animation: crack2 2.5s linear forwards;
-    -webkit-clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
-            clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
-}
-@keyframes shake {
-    5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
-        filter: blur(0.018em);
-        transform: translateY(0.018em) rotate(0deg);
-    }
-
-    10%, 30%, 40%, 50%, 70%, 80%, 90% {
-        filter: blur(0.01em);
-        transform: translateY(-0.018em) rotate(0deg);
-    }
-
-    20%, 60% {
-        filter: blur(0.03em);
-        transform: translate(-0.018em, 0.018em) rotate(0deg);
-    }
-
-    45%, 85% {
-        filter: blur(0.03em);
-        transform: translate(0.018em, -0.018em) rotate(0deg);
-    }
-
-    100% {
-        filter: blur(0.007em);
-        transform: translate(0) rotate(-0.5deg);
-    }
-}
-
-@keyframes crack1 {
-    0%, 95% {
-        transform: translate(-50%, -50%);
-    }
-
-    100% {
-        transform: translate(-51%, -48%);
-    }
-}
-
-@keyframes crack2 {
-    0%, 95% {
-        transform: translate(-50%, -50%);
-    }
-
-    100% {
-        transform: translate(-49%, -53%);
-    }
-}
-/*************************************************************************
-*****************                                          ***************
-*****************             Sights image animation       ***************
-*****************                                          ***************
-**************************************************************************/
-.sights div img:hover{
-    -moz-animation: anime 2s;
-    -webkit-animation: anime 2s;
-    animation: anime 2s ;  
-}
-@keyframes anime{
-    0%{
-        transform: rotateY(360deg);
-    }
- 
 }
