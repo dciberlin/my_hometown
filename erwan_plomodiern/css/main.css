@@ -178,7 +178,7 @@ footer {
     width: 98%;
     z-index: 10;
 }
-
+/*
 .img_alone {
     max-width: 800px;
     width:95%; 
@@ -188,6 +188,7 @@ footer {
     width:100%;
     object-fit: fill;
 }
+*/
 /* this part is about the photos appearing and disappearing 
 in the view section */
 
@@ -203,11 +204,12 @@ in the view section */
     padding-top: 100px;
     transition: 0.6s;
 }
+
 .cache img {
-    max-width: 800px;
     max-height: 85%;
     width:90%;
-    object-fit: fill;
+    max-width: 800px;
+    object-fit: scale-down;
 }
 
 #cache_parapente:target {
