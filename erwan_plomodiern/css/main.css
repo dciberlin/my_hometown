@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    width: 100%;
+    width: 98%;
     margin: 0;
     padding: 0 1% 0 1%;
     background-color: #aaa;
@@ -83,7 +83,7 @@ iframe {
 }
 footer {
     position: relative;
-    width: 103%;
+    width: 102%;
     background-color: #333;
     transform: translateX(-1%);
     margin-top: 20px;
