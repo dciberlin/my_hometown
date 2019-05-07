@@ -178,17 +178,7 @@ footer {
     width: 98%;
     z-index: 10;
 }
-/*
-.img_alone {
-    max-width: 800px;
-    width:95%; 
-}
-.img_alone img {
-    max-width: 800px;
-    width:100%;
-    object-fit: fill;
-}
-*/
+
 /* this part is about the photos appearing and disappearing 
 in the view section */
 
@@ -200,11 +190,15 @@ in the view section */
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(204, 204, 204, 0.5);    
-    padding-top: 100px;
+    background-color: rgba(204, 204, 204, 0.8);    
+    padding-top: 80px;
     transition: 0.6s;
 }
-
+/* added a close menu button with awesome font 
+beolow I put it in the top right corner of the divs .cache */
+.cache a i {
+    vertical-align: top;
+}
 .cache img {
     max-height: 85%;
     width:90%;
@@ -213,27 +207,27 @@ in the view section */
 }
 
 #cache_parapente:target {
-    width: 100%;
+    width: 99%;
     height: 100%;
-    padding-left: 10px;
+    padding-left: 1%;
     padding-top: 80px;
 }
 #cache_lestrevet:target {
-    width: 100%;
+    width: 99%;
     height: 100%;
-    padding-left: 10px;
+    padding-left: 1%;
     padding-top: 80px;
 }
 #cache_chapel:target {
-    width: 100%;
+    width: 99%;
     height: 100%;
-    padding-left: 10px;
+    padding-left: 1%;
     padding-top: 80px;
 }
 #cache_festival:target {
-    width: 100%;
+    width: 99%;
     height: 100%;
-    padding-left: 10px;
+    padding-left: 1%;
     padding-top: 80px;
 }
 
