@@ -169,9 +169,9 @@ footer {
 .activity img {
     display: block;
     width: 98%;
+    height: 98%;
     object-fit: scale-down;
     z-index: -1;
- /*   transform: translateY(10px);*/
 }
 .activity p {
     display: block;
@@ -248,7 +248,7 @@ in the view section */
 }
 .cache2 img {
     max-width: 800px;
-    max-height: 85%;
+    max-height: 75%;
     width:70%;
     object-fit: contain;
 }
