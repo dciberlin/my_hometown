@@ -51,11 +51,11 @@ a:visited {
     margin-right: auto;
 }
 
-#berlin {
+h1 {
     position: absolute;
     color: #dee4eb;
-    font-size: 40px;
-    letter-spacing: 1em;
+    font-size: 20px;
+    letter-spacing: 2em;
     font-weight: bold;
     left: 50%;
     top: 50%;
@@ -64,11 +64,11 @@ a:visited {
 
 /* history */
 
- .history2 {
+ .history {
      position: relative;
  }
 
-.h1history {
+h2 {
     font-weight: normal;
     padding-top: 70px;
 }
@@ -99,18 +99,8 @@ a:visited {
 
 /* location */
 
-.h2location {
-    font-weight: normal;
-    padding-top: 70px;
-}
-
 
 /* images */
-
-.h3images {
-    font-weight: normal;
-    padding-top: 70px;
-}
 
 .imagesrow {
     width: 100%;
@@ -133,11 +123,6 @@ a:visited {
 }
 
 /* sights */
-
-.h4sights {
-    font-weight: normal;
-    padding-top: 70px;
-}
 
 .sightrow {
     /* margin-left: -5px;
