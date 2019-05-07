@@ -4,9 +4,9 @@ html {
 }
 
 body {
-    width: 98%;
-    margin: 1% 1% 0 1%;
-    padding: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0 1% 0 1%;
     background-color: #aaa;
     background: url(../assets/img/plomo_old.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -85,9 +85,9 @@ iframe {
 }
 footer {
     position: relative;
-    width: 105%;
+    width: 100%;
     background-color: #333;
-    transform: translateX(-1%);
+  /*  transform: translateX(-1%); */
     margin-top: 20px;
     
 }
@@ -146,7 +146,7 @@ footer {
 .views_plomo img {
     display: block;
     width: 98%;
-    object-fit: contain;
+    object-fit: scale-down;
 }
 
 .activity {
@@ -260,6 +260,12 @@ in the view section */
 }
 
 #cache_peche_douarn:target {
+    width: 100%;
+    height: 90%;
+    padding-left: 10px;
+    padding-top: 80px;
+}
+#cache_locronan:target {
     width: 100%;
     height: 90%;
     padding-left: 10px;
