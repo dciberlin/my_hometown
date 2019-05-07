@@ -156,14 +156,74 @@ h2{
 ***************** HERE THE image section style CUSTOMIZED  ***************
 *****************                                          ***************
 **************************************************************************/
-
+.image-title{
+    margin-top: 5%;
+    width: 100%;
+}
+#image_block{
+    margin-top: 10%;
+    width:100%;
+}
+.contenar{
+    width:100%;
+}
+.contenar div{
+    float: right;
+    width:50%;
+    border: dotted;
+    
+}
+.contenar div img{
+    width:100%;
+    height:150px;
+}
+.contenar2{
+    width:100%;
+    
+}
+.contenar2 div{
+    float: right;
+    width:50%;
+    border: dotted;
+}
+.contenar2 div img{
+    width:100%;
+    height:150px;
+}
+hr{
+    display: none;
+}
 
 /*************************************************************************
 *****************                                          ***************
 ***************** HERE THE Sights style CUSTOMIZED         ***************
 *****************                                          ***************
 **************************************************************************/
-
+.sights-title{
+    clear: both;
+    margin-top: 10%;
+    width: 100%;
+    
+}
+#Sights{
+    width:100%;
+    margin-top: 10%;
+    background-color: #404241;
+}
+.contenar3{
+    width:100%;
+}
+.contenar3 div{
+    float: right;
+    width:30%;
+    margin: 1%;
+    margin-left: 2%;
+}
+.contenar3 div img{
+    width:100%;
+    height: 300px;
+    
+}
 
 
 /*************************************************************************
@@ -174,9 +234,7 @@ h2{
 footer{
     margin-top: 5%;
 }
-footer h3{
-    color: aliceblue;
-}
+
 footer p{
     color: aliceblue;
 }
