@@ -3,9 +3,9 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-section {
+/* section {
     min-height: 100vh;
-}
+} */
 div ul {
     font-family: 'Aref Ruqaa', serif;
     list-style: none;
@@ -64,8 +64,21 @@ h1 {
 
 /* history */
 
+.sectionhistory {
+    /* border: solid 2px red; */
+    width: 100%;
+    display: inline-block;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+}
  .history {
-     position: relative;
+     /* position: relative; */
+     width: 35%;
+     /* border: solid 2px red; */
+     display: inline-block;
+     margin: 0;
+     padding: 0;
  }
 
 h2 {
@@ -74,32 +87,43 @@ h2 {
 }
 
 .mauer {
-    width: 400px;
-    height: 300px;
-    float: left;
+    width: 100%;
+    height: 100%;
+  /*   float: left; */
     border-radius: 5px;
-    /* box-shadow: 1px 1px 1px 1px; */
-    /* margin-right: 30px; */
+    box-shadow: 2px 3px 5px 0px;
 }
 
 .phistory {
-    font-size: 20px;
-    margin-left: 440px;
+    font-size: 18px;
+    padding: 5px 20px;
+    width: 47%;
+    height: 350px;
+    position: absolute;
+    /* overflow: hidden; */
+    /* border: solid 2px red; */
+    /* float: left; */
+    display: inline-block;
 }
 
 .morehistory {
     border: 2px solid grey;
-    margin-left: 440px;
-    margin-top: 50px;
-    padding: 10px;
+    margin-left: 0;
+    /* margin-top: 50px;
+    padding: 10px; */
     width: 80px;
-    /* height: 20px; */
+    float: left;
+    /* height: 20%; */
     text-align: center;
+    /* border: solid 2px red; */
+    /* position: relative; */
 }
 
 /* location */
 
-
+.sectionlocation {
+  /*   border: solid 2px red; */
+}
 /* images */
 
 .imagesrow {
