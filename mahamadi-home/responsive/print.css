@@ -1,0 +1,74 @@
+@media screen and (max-width:900px){
+   body{
+       width: 100%;       
+   }
+   header{
+       width:100%;
+   }
+   main{
+       width:100%;
+   }
+   footer{
+       width:100%;
+   }
+/*************************************************************************
+*****************                                          ***************
+*****************    HERE IS THE Nav manu style CUSTOMIZED ***************
+*****************                                          ***************
+**************************************************************************/
+   .home-title ,span{  
+       visibility: visible; 
+   } 
+   .home-title{
+       visibility: hidden;
+       -webkit-backface-visibility: hidden;
+       backface-visibility: hidden;
+       -moz-backface-visibility: hidden;
+   }
+   #div1{
+       width: 30%;
+   }
+   #div2{
+       width: 70%;
+   }
+   h1 span {a   
+    font-size: 100%;
+    color: black;
+    }
+    nav ul li{
+        margin: 5%;
+    }
+    nav {
+        float: none;
+    }
+    
+    #div2 nav{
+        width: 7%;
+    }
+    h1 span{  
+       
+        animation: animated_text 0s ;
+        -moz-animation: animated_text 0s ;
+        -webkit-animation: animated_text 0s; 
+        animation-delay: 0s;
+        -moz-animation-delay: 0s;
+        -webkit-animation-delay: 0s;      
+           
+    }
+    
+
+    .theImages, .theLocation, .theHistory, .theSights{
+        animation:move;
+        -moz-animation:move;
+        -webkit-animation:move;
+        animation: animated_div 0s ;
+        -moz-animation: animated_div 0s ;
+        -webkit-animation: animated_div 0s ;
+        -o-animation: animated_div 0s ;
+    }
+    
+    
+    .home-image,
+    
+
+}

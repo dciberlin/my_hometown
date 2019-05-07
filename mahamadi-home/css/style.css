@@ -3,12 +3,13 @@
 *****************    HERE IS THE Nav manu style CUSTOMIZED ***************
 *****************                                          ***************
 **************************************************************************/
+
 .home-title{
     float: left;
     margin-top: 5px;
     font-size: 35px;    
     font-family: 'Gugi', cursive;
-    position: absolute;
+    
 }
 h1 span{
     margin-left: 10px;
@@ -16,17 +17,12 @@ h1 span{
     font-size: 37px;
     font-family: 'VT323', monospace;    
     }
-
 nav{
     float: right;
-    margin-right:450px;
-   
-    
+    margin-right:450px;    
 }
-nav ul {
-   
-    list-style: none;
-    
+nav ul {   
+    list-style: none;    
 }
 nav ul li{
     display: inline-block;
@@ -58,6 +54,7 @@ img.home-image{
     font-family: 'Monoton', cursive;
     color: aliceblue;
     position: absolute;
+    
     margin-left: 450px;
     margin-top: 300px;
     text-transform: uppercase;
