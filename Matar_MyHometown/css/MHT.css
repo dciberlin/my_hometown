@@ -47,9 +47,11 @@ h2{
     font-size: 2em;
     padding-top: 5%;
     padding-bottom: 5%;
+    
 }
 div{
     padding-bottom: 15%;
+    clear: both;
 }
 header{
     padding-bottom: 15%;
@@ -115,30 +117,7 @@ section{
     float: none;
 
 }
-@media only screen and (max-width: 380px){
-    li{
-        display: block;
-        padding: 6%;
-        margin: 6%;
-    }
-    ul{
-        text-align: left;
-        float: left;
-        
-    
-    }
-    #headimg{
-        width: 85%;
-        float: right;
-        height: 200px;
-        clear: both;
-        top: 0; 
-        position: absolute;
-    }
-    #history{
-        clear: both;
-    }
-    }
+
 @media only screen and (max-width: 800px){
     li{
         padding: 5%;
@@ -149,10 +128,13 @@ section{
         padding: 1%;
         
     }
+    
     #headimg{
+        
         height: 300px;
     }
     header{
+        
         padding-bottom: 5%;
     }
     div{
@@ -187,4 +169,37 @@ section{
     margin-left: 3%;
     }
 }
+@media only screen and (max-width: 420px){
+    ul{
+       display: list-item;
+       text-align: start;
+       
+    }
+    nav{
+        box-shadow: none;
+        float: left;
+        width: 19%;
+        position: relative;
+        
+    }
+    header{
+        position: absolute;
+        width: 79%;
+        float: right;
+        clear: both;
+        right: 0;
+       
+    
+    }
+    #headimg{
+        height: 100px;
+    }
+    .map{
+        height: 250px;
+    }
+    .history{
+        margin-top: 5%;
+    }
+    
+    }
 
