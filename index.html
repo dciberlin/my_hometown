@@ -9,74 +9,166 @@
     beach,playa,strände,puderzucker,vacations,vacaciones,Urlaub">
     <meta name="author" content="Osward Gust-Martinez">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto|Marck+Script" 
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat|Slabo+27px" rel="stylesheet">
     <title>Barcelona</title>
 </head>
 <body>
 
-    <section id="home">
-        <!--Navigation Bar-->
-        <nav class="header-nav">
-            <ul>
-                <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#history">History</a></li>
-                <li><a href="#location">Locations</a></li>
-                <li><a href="#images">Images</a></li>
-                <li><a href="#sights">Sights</a></li>
-            </ul>
-        </nav>
-        
-        
-        <img class="homepage" src="assets/img/barcelona.jpg" 
-        alt="Atardecer en Barcelona">
-        
-        <h1 class="mainTitle">Discover Barcelona</h1>
+    <!--Navigation Bar-->
+    <div class="navbar">
+        <ul class="nav">
+            <li><a href="#home">home</a></li>
+            <li><a href="#history">history</a></li>
+            <li><a href="#locations">location</a></li>
+            <li><a href="#images">images</a></li>
+            <li><a href="#sights">sights</a></li>
+        </ul>
+    </div> 
 
-                   
-        
-    </section>  
+    <!--Home Section-->
     
-    <section id="history">
-        
-        <h1>History</h1>
+    <div class="banner-area" id="home">
+        <div class="homepage-content">
+            <h1>Welcome to Barcelona</h1>
+            <p>Discover the paradise in the caribbean located at the north of Venezuela and let you
+            seduce by its history, food, culture and people.</p>
+        </div>
+    </div>
 
-        <img class="history_foto" src="assets/img/casa_fuerte.jpeg" 
-        alt="Casa Fuerte">
+    <!--History section-->
 
-        <p>Barcelona was founded in 1638 as Nueva Barcelona del Cerro Santo by the Spanish conqueror
-            of Catalan origin Joan Orpí. In 1671 it was refounded by Governor Sancho Fernández de Angulo two kilometres south of the original site.
-            Barcelona was one of the provinces under the authority of the government of New Andalusia. It was also called the province of Nueva Barcelona.            
-            In 1761, the province was bordered to the north by the town of Pozuelos; to the west by the river Unare up to its head; to the east by the table of Guanipa 
-            and to the south by the river Orinoco.
-            Due to the events of April 19, 1810, in the city of Barcelona met a board that proclaimed on April 
-            27 the independence of the province, which until that time constituted the Barcelona district of 
-            the province of Cumaná. On July 11, 1810, the Supreme Board of Caracas included Barcelona among 
-            the provinces. 
-        </p>
+    <div class="hist-area" id="history">
+        <div class="content">
+            <h2>History</h2>
+            <div class="img_and_text">
+                <img class="history_foto" src="assets/img/casa_fuerte.jpeg" 
+                alt="Casa Fuerte">
+                <p>Barcelona was founded in 1638 as Nueva Barcelona del Cerro Santo by the Spanish conqueror
+                    of Catalan origin Joan Orpí. In 1671 it was refounded by Governor Sancho Fernández de Angulo two kilometres south of the original site.
+                    Barcelona was one of the provinces under the authority of the government of New Andalusia. It was also called the province of Nueva Barcelona.            
+                    In 1761, the province was bordered to the north by the town of Pozuelos; to the west by the river Unare up to its head; to the east by the table of Guanipa 
+                    and to the south by the river Orinoco.                     
+                </p>
+            </div>
+        </div>
+    </div>
 
-        <button id="myBtn"><a href="https://es.wikipedia.org/wiki/Barcelona_(Venezuela)#Historia">Read More</a></button>
+    <!--Location section-->
 
-    </section>
-    
-    <section id="images">
+    <div class="loc-area" id="locations">
+        <div class="content">
+            <h2>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125691.1200252963!2d-64.73384732651077!3d10.111566167593367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2d723eff71306f%3A0x22feb43cef889e75!2sBarcelona%2C+Anzoategui%2C+Venezuela!5e0!3m2!1sen!2sde!4v1557177506649!5m2!1sen!2sde" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
 
-        <h1>Images</h1>
 
-    </section>
+    <!--Image section-->
 
-    <section id="location">
+    <div class="img-area" id="images">
+        <div class="content">
+            <h2>Images</h2>
+            
+            <div class="imagesrow">
+                <div class="col-5">
+                    <a href="/assets/img/fito.jpg" target="_blank">
+                        <img src="/assets/img/fito.jpg" alt="International Theater Festival in Barcelona" title="International Theater Festival in Barcelona">
+                        <p>Theatre Company</p>
+                    </a> 
+                </div>
+                <div class="col-5">
+                    <a href="/assets/img/pescao_frito.jpeg" target="_blank">
+                        <img src="/assets/img/pescaditofrito.jpg" alt="Patacones with Fried Fish" title="Patacones with Fried Fish">
+                        <p>Fish with Patacones</p>
+                    </a> 
+                </div>
+                <div class="col-5">
+                    <a href="/assets/img/catedral_barcelona.jpg" target="_blank">
+                        <img src="/assets/img/catedral_barcelona.jpg" alt="The Cathedral of Barcelona" title="The Cathedral of Barcelona">
+                        <p>Cathedral of Barcelona</p>
+                    </a> 
+                </div>
+                <div class="col-5">
+                    <a href="/assets/img/mare_mare.jpg" target="_blank">
+                        <img src="/assets/img/mare_mare.jpg" alt="Native Dance Mare Mare" title="Native Dance Mare Mare">
+                        <p>Mare Mare</p>
+                    </a> 
+                </div> 
+                <div class="col-5">
+                    <a href="/assets/img/camaron_de_rio.jpg" target="_blank">
+                        <img src="/assets/img/camaron_de_rio.jpg" alt="River shrimps" title="River shrimps">
+                        <p>River Schrimps</p>
+                    </a> 
+                </div>                
+            </div>
+   
+            <div class="imagesrow">
+                <div class="col-5">
+                    <a href="/assets/img/bergantin.jpg" target="_blank">
+                        <img src="/assets/img/bergantin.jpg" alt="Paraglider in Bergantin" title="Paraglider in Bergantin">
+                        <p>Paraglider in Bergantin</p>
+                    </a> 
+                </div>
+                <div class="col-5">
+                    <a href="/assets/img/delfines.jpg" target="_blank">
+                        <img src="/assets/img/delfines.jpg" alt="Dolphins in Mochima National Park" title="Dolphins in Mochima National Park">
+                        <p>Mochima's Dolphins</p>
+                    </a> 
+                </div>
+                <div class="col-5">
+                    <a href="/assets/img/pescadores.jpg" target="_blank">
+                        <img src="/assets/img/pescadores.jpg" alt="Little Fishing Boats on the coast" title="Little Fishing Boats on the coast">
+                        <p>Lecherias Coast</p>
+                    </a> 
+                </div>
+                <div class="col-5">
+                    <a href="/assets/img/ciruelahuesito.jpg" target="_blank">
+                        <img src="/assets/img/ciruelahuesito.jpg" alt="Stone Plum Harvest" title="Stone Plum Harvest">
+                        <p>Stone Plum</p>
+                    </a> 
+                </div> 
+                <div class="col-5">
+                    <a href="/assets/img/kids_surf.jpg" target="_blank">
+                        <img src="/assets/img/kids_surf.jpg" alt="Kids surfing in Lecherias" title="Kids surfing in Lecherias">
+                        <p>Lido beach</p>
+                    </a> 
+                </div>                 
+            </div>
 
-        <h1>Locations</h1>
+        </div>
+    </div>
 
-    </section>
+        <!--sigh section-->
 
-    <section id="sights">
+    <div class="si-area" id="sights">
+        <div class="content">
+            <h2>Sights</h2>
+            <div class="imagesrow">
+                <div class="col-3">
+                    <a href="/assets/img/casaFuerte.jpg" target="_blank">
+                        <img src="/assets/img/casaFuerte.jpg" alt="Casa Fuerte" title="Casa Fuerte">
+                        <p>Casa Fuerte</p>
+                    </a> 
+                </div>
+                <div class="col-3">
+                    <a href="/assets/img/cajigal.jpg" target="_blank">
+                        <img src="/assets/img/cajigal.jpg" alt="Cajigal Theater" title="Cajigal Theater">
+                        <p>The Cajigal Theater</p>
+                    </a> 
+                </div>
+                <div class="col-3">
+                    <a href="/assets/img/museum.jpg" target="_blank">
+                        <img src="/assets/img/museum.jpg" alt="Anzoátegui Museum" title="Anzoátegui Museum">
+                        <p>The Anzoátegui Museum</p>
+                    </a> 
+                </div>
+            </div>
+        </div>
+    </div>        
 
-        <h1>Sights</h1>
+   <!--Footer-->
 
-    </section>
-    
+   <footer></footer>    
     
 </body>
 </html>
