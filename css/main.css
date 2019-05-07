@@ -114,6 +114,8 @@ p {
     text-transform: uppercase;
 }
 
+/*History Section*/
+
 .img_and_text {
     width: 100%;
     overflow: auto;
@@ -134,9 +136,13 @@ p {
     font-size: 1rem;
 }
 
+/*Location Section*/
+
 iframe {
     width: 100%;
 }
+
+/*Image Section*/
 
 .col-5 {
     width: 20%;
@@ -159,6 +165,8 @@ iframe {
     font-size: 1rem;
 }
 
+/*Sights Section*/
+
 .col-3 {
     width: 33%;
     height: auto;
@@ -178,3 +186,14 @@ iframe {
     color: grey;
     font-size: 1rem;
 }
+
+
+footer {
+    position: relative;    
+    width: 80%;
+    height: 50px; 
+    margin: 0 auto;   
+    background-color: #000;
+    text-align: center;
+} 
+
