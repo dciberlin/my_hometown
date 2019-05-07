@@ -195,7 +195,8 @@ in the view section */
 beolow I put it in the top right corner of the divs .cache */
 .cache a i {
     vertical-align: top;
-    transform: scale(2);
+    color: #333;
+    transform: scale(2) translate(15px, 10px);
 }
 .cache img {
     max-height: 85%;
