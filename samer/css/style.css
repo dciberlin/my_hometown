@@ -7,7 +7,7 @@
 
 body{
 background-color: white;
-margin: 5px auto;
+margin: 1px auto;
 width: 90%;
 }
 
@@ -54,7 +54,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', end
     width: 100%;
     padding-top: 15px;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
-margin-top: 50px;
+    margin-top: 50px;
     
   }
 
@@ -291,37 +291,37 @@ footer{
 /*--------FOR-MOBILE---------------*/
 @media screen and (max-width: 900px){
 
-  body{
-    width: 100%;
+body{
+  width: 100%;
+}
 
-  }
+.menu{
+  width: 100%;
+}
 
-  .menu{
-    position: static;
-        height: 50px; 
-        width: 95%;
-        margin: auto;
-     
-    }
+li{
+  padding: 15px 25px;
+}
 
-    .main-img{
+.div-main-img{
+text-align: center;
+}
 
-      margin: auto;
-      width: 95%;
+.main-img{
+  width: 95%;
+}
 
-    }
-    .div-main-img{
-      text-align: center;
-    }
+.content{
+  width: 95%;
+  margin: auto;
+}
+.images {
+  width: 45%;
+  height: 250px;
+}
+.sights {
+  width: 49%;
+}
 
-    .content{
-      width: 95%;
-      margin: auto;
 
-    }
-    li{
-      padding: 15px 25px;
-    }
-
-    
 }
