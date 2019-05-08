@@ -115,7 +115,6 @@ footer {
 }
 #activities {
     padding-top: 40px;
-    clear: left; /*to clear the float left of the images from view section */
 }
 #photos {
     padding-top: 40px;
@@ -135,7 +134,6 @@ footer {
     display: inline-block;
     width: 25%;
     overflow: hidden;
-    float: left;
     padding-top: 3px;
 }
 .views_plomo:hover {
@@ -186,7 +184,6 @@ in the view section */
     overflow: hidden;
     position: fixed;
     top: 0;
-    left: 0;
     background-color: rgba(204, 204, 204, 0.8);    
     padding-top: 80px;
     transition: 0.6s;
@@ -201,7 +198,7 @@ beolow I put it in the top right corner of the divs .cache */
 .cache img {
     max-height: 85%;
     width:90%;
-    max-width: 800px;
+    max-width: 750px;
     object-fit: scale-down;
 }
 /* div with id below will 'appear' with width going from 0 to 99% */
@@ -229,17 +226,18 @@ beolow I put it in the top right corner of the divs .cache */
     padding-left: 1%;
     padding-top: 80px;
 }
-
+/* here is the hidden parts .cache2 from the activity section */
 .cache2 {
     width: 0;
     overflow: hidden;
     z-index: 1;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -100px; /* this bring the div away from the side so the appearance looks smoother
+    to correct that though, we must respecify left: 0px when targeted */
     background-color: rgba(204, 204, 204, 0.8);    
     padding-top: 100px;
-    transition: 0.6s;
+    transition: 1s;
 }
 .cache2 img {
     max-width: 800px;
@@ -253,35 +251,43 @@ beolow I put it in the top right corner of the divs .cache */
     height: 100%;
     padding-left: 10px;
     padding-top: 80px;
+    left: 0;
 }
 #cache_peche_douarn:target {
     width: 100%;
     height: 90%;
     padding-left: 10px;
     padding-top: 80px;
+    left: 0;
 }
 #cache_locronan:target {
     width: 100%;
     height: 90%;
     padding-left: 10px;
     padding-top: 80px;
+    left: 0;
 }
-
+#cache_quimper:target {
+    width: 100%;
+    height: 90%;
+    padding-left: 10px;
+    padding-top: 80px;
+    left: 0;
+}
 /*this part is about responsivity*/
 
 /*the first one is more for the fun of it since it's not
 really clean to have 3 images on one line and then 1 alone*/
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 768px) and (max-width : 1024px) {
     .views_plomo {
         width: 33%;
-        min-height: 170px;
     }
     .activity {
         width: 33%;
         margin: auto;
     }
   }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 767px) {
     .views_plomo {
         width: 50%;
         min-height: 170px;
