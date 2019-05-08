@@ -1,7 +1,7 @@
 
- /* small phone: form 0 to 480px */
- @media screen and (max-width:480px){
-     body{
+  /* i am a large tablet or small laptop */
+  @media only screen and (min-width:481px) and (max-width:768px){
+    body{
         width: 100%;   
         z-index: 9999; 
         background-image: none;   
@@ -87,7 +87,7 @@
         margin-top: 10%;
     }
     .city{
-        font-size: 100%;        
+        font-size: 170%;        
         margin-left: 30%;
         margin-top: 40%;
  
@@ -238,4 +238,4 @@
  footer p{
      margin-left: 25%;
  }
-}
+ }
