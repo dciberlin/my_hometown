@@ -58,8 +58,10 @@ a {
     color: black;
 }
 h1 {
-    padding-top: 20px;
+    padding-top: 30px;
     background-color: rgba(204, 204, 204, 0.8);
+    border-radius: 5px;
+    margin-bottom: -30px;
 }
 h2 {
     background-color: rgb(204, 204, 204, 0.8);
@@ -121,17 +123,16 @@ footer {
     padding-top: 40px;
     width: 100%;
 }
-
-
 #nav ul li :hover {
     background-color: #aaa
 }
+/* views section layout*/
 .views_plomo {
     display: inline-block;
     width: 50%;
     overflow: hidden;
     padding-top: 3px;
-    vertical-align: middle;
+    vertical-align: middle; /* to get the divs align more or less on the middle line */
 }
 .views_plomo:hover {
     transform: scale(1.1);
