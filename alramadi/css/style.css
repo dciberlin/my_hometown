@@ -1,0 +1,85 @@
+/* Media Queries for Standard Devices */
+
+/* phone */
+ 
+@media (min-width: 370px) and (max-width: 767px) {
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 100%;
+  }
+   
+div.sights_class {
+  margin: 5px;
+  border: 2px solid red;
+  float: left;
+  width: 100%;
+  }
+
+div.sights_class img {
+  width: 100%;
+  height: auto;
+  }
+      
+
+#img_history {
+  float: left;
+  border: 1px dotted black;
+  margin: 0px 15px 0px 5px;
+  width: 100%;
+  }
+
+.navbar {
+  position: relative;
+  }
+
+.navbar a {
+  display: block;
+  } 
+
+
+}
+
+
+/* Tablets */
+ 
+ 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 48%;
+    }
+   
+  div.sights_class {
+      margin: 5px;
+      border: 2px solid red;
+      float: left;
+      width: 100%;
+      }
+
+  div.sights_class img {
+    width: 100%;
+    height: auto;
+    }
+      
+
+  #img_history {
+    float: left;
+    border: 1px dotted black;
+    margin: 0px 15px 0px 5px;
+    width: 50%;
+    }
+
+
+  .navbar {
+    position: relative;
+    }
+
+}
+
+
