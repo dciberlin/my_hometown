@@ -7,6 +7,7 @@ ul {
     font-family: 'Noto Sans', sans-serif;
     list-style: none;
     text-align: center;
+    padding-left: 0;
 }
 
 li {
@@ -199,7 +200,7 @@ footer img {
 /* media query */
 
 /* small phone: from 0 to 480px */
-/* @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     body {
         background: blue;
     }
@@ -217,9 +218,11 @@ footer img {
     top: 50%;
     transform: translate(-50%, -50%)
 }
- */
+
+
 /* small tablets or small phone */
-/* @media only screen and (min-width:481px) and (max-width:768px) {
+
+@media only screen and (min-width:481px) and (max-width:768px) {
 
     body {
         background: yellow;
@@ -237,10 +240,12 @@ footer img {
         top: 50%;
         transform: translate(-50%, -50%)
     }
-} */
+}
+
 
 /* large tablet or small laptop */
-/* @media only screen and (min-width:769px) and (max-width:1024px) {
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
 
     body {
         background: green;
@@ -259,12 +264,12 @@ footer img {
         top: 50%;
         transform: translate(-50%, -50%)
     }
-} */
+}
 
 
 /* small or large laptop */
 
-/* @media only screen and (min-width:1025px) {
+@media only screen and (min-width:1025px) {
 
     body {
         background: red;
@@ -282,4 +287,4 @@ footer img {
         top: 50%;
         transform: translate(-50%, -50%)
     }
-} */
+}
