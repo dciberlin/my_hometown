@@ -62,6 +62,7 @@ h1 {
     text-align: center;
     padding-bottom: 10px;
     font-family: Gugi;
+    
 }
 /* ----------------------------history section---------------------- */
 .info{
@@ -69,13 +70,20 @@ font-size: 90%;
 color: #999;
 
 }
+.line {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
 
 
 .content{
       padding-top: 60px;
-      overflow: auto;
-      
+      overflow: auto; 
+
   }
+
+
 
  .his-img{
      float: left;
@@ -277,4 +285,43 @@ footer{
     margin-top: 20px;
     text-align: center;
 
+
 }/* ------------------------ending footer--------------------- */
+
+/*--------FOR-MOBILE---------------*/
+@media screen and (max-width: 900px){
+
+  body{
+    width: 100%;
+
+  }
+
+  .menu{
+    position: static;
+        height: 50px; 
+        width: 95%;
+        margin: auto;
+     
+    }
+
+    .main-img{
+
+      margin: auto;
+      width: 95%;
+
+    }
+    .div-main-img{
+      text-align: center;
+    }
+
+    .content{
+      width: 95%;
+      margin: auto;
+
+    }
+    li{
+      padding: 15px 25px;
+    }
+
+    
+}
