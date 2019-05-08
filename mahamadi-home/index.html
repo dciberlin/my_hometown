@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="responsive/print.css">
     <link rel="stylesheet" href="responsive/print2.css">
+    <link rel="stylesheet" href="responsive/print3.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gugi|Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gugi|Open+Sans|ZCOOL+KuaiLe" rel="stylesheet">
@@ -16,22 +17,28 @@
     <link href="https://fonts.googleapis.com/css?family=Gugi|Monoton|Open+Sans|VT323|ZCOOL+KuaiLe" rel="stylesheet">
 </head>
 <body>
-    <header id="menu">
-      <div id="div1"><h1 class="home-title">Welcome <span>chez MOI</span></h1></div>
-        <div id="div2"><nav>
-                <ul>
-                    <li><a class="theHistory" href="#History">History</a> </li>
-                        <li><a class="theLocation" href="#Location">Location</a></li>
-                        <li><a class="theImages" href="#image_block">Images</a></li>
-                        <li><a class="theSights" href="#Sights">Sights</a></li>
+
+    <header id="menu">  
+
+      <h1 class="home-title">Welcome <span>chez MOI</span></h1>
+      <input type="checkbox" name="" id="nav-toggle" class="nav-toggle">
+
+        <nav>
+            <ul>
+                <li><a class="theHistory" href="#History">History</a> </li>
+                    <li><a class="theLocation" href="#Location">Location</a></li>
+                    <li><a class="theImages" href="#image_block">Images</a></li>
+                    <li><a class="theSights" href="#Sights">Sights</a></li>
                 </ul>
-            </nav>  </div>         
+            </nav> 
+            <label for="nav-toggle" class="nav-toggle-label"> <span></span></label>         
     </header>
     <main>
         <section id="section1">
             <div id="home-image">
+                    <img class="home-image" src="img/1.jpg" alt=" home photos">
                 <h2 class="city"> Ouagadougou</h2>
-                <img class="home-image" src="img/1.jpg" alt=" home photos">
+                
             </div>
         </section>
 

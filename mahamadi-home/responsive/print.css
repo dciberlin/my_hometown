@@ -20,57 +20,7 @@
  *****************    HERE IS THE Nav manu style CUSTOMIZED ***************
  *****************                                          ***************
  **************************************************************************/
-    .home-title ,span{  
-        display: block;
-    } 
-    .home-title{
-        display: none;
-    }
-    nav{
-        display: none;
-    }
-    #div1{
-        width: 30%;
-    }
-    #div2{
-        width: 70%;
-    }
-    h1 span {a   
-     font-size: 100%;
-     color: black;
-     }
-     nav ul li{
-         margin: 5%;
-     }
-     nav {
-         float: none;
-     }
-     
-     #div2 nav{
-         width: 7%;
-     }
-     h1 span{  
-        
-         animation: animated_text 0s ;
-         -moz-animation: animated_text 0s ;
-         -webkit-animation: animated_text 0s; 
-         animation-delay: 0s;
-         -moz-animation-delay: 0s;
-         -webkit-animation-delay: 0s;      
-            
-     }
- 
-     
- 
-     .theImages, .theLocation, .theHistory, .theSights{
-         animation:move;
-         -moz-animation:move;
-         -webkit-animation:move;
-         animation: animated_div 0s ;
-         -moz-animation: animated_div 0s ;
-         -webkit-animation: animated_div 0s ;
-         -o-animation: animated_div 0s ;
-     }
+    
  /*************************************************************************
  *****************                                          ***************
  *****************HERE THE home top image style CUSTOMIZED  ***************
@@ -87,11 +37,13 @@
         margin-top: 10%;
     }
     .city{
-        font-size: 100%;        
-        margin-left: 30%;
-        margin-top: 40%;
- 
-    }
+        clear: both;
+        position: absolute;
+        font-size: 2em;        
+        margin-left: 35%;
+        top: 20%;
+        color: aliceblue !important;
+     }
  /*************************************************************************
  *****************                                          ***************
  ***************** HERE THE history section style CUSTOMIZED***************
