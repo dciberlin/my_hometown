@@ -1,13 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
 a:hover { 
-    background-color: aqua;
+  background-color: rgb(7, 112, 98);
+}
+
+nav ul {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px; 
+  overflow: hidden;
+  padding: 0 15px;    
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 10px;
+
+} 
+
+li a {
+  color: black;
+  text-align: center;
   }
-/* Container holding the image and the text */
+
+a {
+  text-decoration: none;
+}
+
+/* Home page: Container holding the image and the text */
 .container {
     position: relative;
     text-align: center;
     color: white;
   }
-  /* Centered text */
+/* Home page: Centered text */
 .centered {
     position: absolute;
     top: 50%;
@@ -22,64 +51,135 @@ a:hover {
     top: 50%;
     left: 8px;
     float: left;
-    
-
   }
-  h1 {
-      
+
+  h1 {  
     font-family: 'Shadows Into Light', cursive;
-    
-  }
-  p {
-    font-family: 'Rokkitt', serif;
+    text-align: center;
   }
 
-  /* NAVIGATION BAR
+  h2 {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;  
+  }
 
-.header-nav {
-   width: 100%;
-   height: 30px;
-   position: relative;
-   background-color: #FFF;
-   font-weight: normal;
-   font-size: 1rem;
-}
+  footer {
+    background-color: rgb(7, 112, 98);
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif; 
+  }
+  /* History */
+  div.history {
+    position: relative;
+    width: 90%;
+    height: auto;
+  }
+  div.history p {
+    font-size: 15px;
+    position: absolute;
+    padding: 2px;
+    display: inline-block;
+    width: 60%;
+  }
+  p.history {
+    margin-left: 40px;
+  
+  }
+  div.history image {
+    position: absolute;
+    width: 40%;  
+  }
 
-.header-nav > ul {
-   margin: 0;
-   padding: 0;
-   position: absolute;
-   right: 10rem;
-   top: .2rem;
-}
+  img.history {
+    width: 300px;
+    height: auto;
+    margin-left: 10px;
+  }
 
-.header-nav > ul > li {
-   display: inline-block;
-}
+  p.history a {
+    border: solid 0.5px darkgray;
+    padding: 5px;
+    color: black;
+    width: 120px;
+    height: 25px;
+    background-color: rgb(7, 112, 98, 0.5); 
+  }
+  /* landmarks */
+  div.container1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
 
-.header-nav > ul > li > a {
-   font-size: .5rem;
-   margin-right: 1rem;
-   text-transform: lowercase;
-}
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    width: 100%;
+  }
+ 
+ /* Create 3 equal columns that sits next to each other */
+  .column-3 {
+    width: 33%; 
+    height: auto;  
+    float: left; 
+  }
+  
+  .column-3 img {
+    margin-top: 5px;
+    width: 330px;
+    height: 330px;
+    object-fit: cover;
 
-.header-nav > ul > li > a:link {
-   color: #808080;
-   text-decoration: none;
-}
+  }
+  .column-3 p {
+    padding-left: 20px;
+  }
+  /* Handmade */
+  .column-5 {
+    width: 20%; 
+    height: auto;  
+    float: left; 
+  }
+  
+  .column-5 img {
+    margin-top: 5px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding-left: 20px;
+  }
+  .column-5 p {
+    padding-left: 20px;
+  }
+  /* Crisis */
+  p.crisis {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+  }
 
-.header-nav > ul > li > a:hover {
-   color: turquoise;
-   text-decoration: none;
-}
+  /*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  display: block;
+ }
 
-.header-nav > ul > li > a:active {
-   color: grey;
-   text-decoration: none;
-}
+/* Medium devices (tablets, 768px and up) 
+@media (min-width: 768px) {
+  display: block;
+} */
 
-.header-nav > ul > li > a:visited {
-   color: #808080;
-   text-decoration: none;
-} 
-*/
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  display: block;
+ }
+
+/* Extra large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px) {
+  display: block; */
+ }
