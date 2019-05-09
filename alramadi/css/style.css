@@ -2,7 +2,7 @@
 
 /* phone */
  
-@media (min-width: 370px) and (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 767px) {
 
 div.gallery {
   margin: 5px;
