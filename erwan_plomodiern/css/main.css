@@ -250,6 +250,7 @@ beolow I put it in the top right corner of the divs .cache */
     padding-left: 2%;
     padding-top: 60px;
     left: 0;
+    overflow: scroll;
 }
 #cache_peche_douarn:target {
     width: 98%;
@@ -257,6 +258,7 @@ beolow I put it in the top right corner of the divs .cache */
     padding-left: 2%;
     padding-top: 60px;
     left: 0;
+    overflow: scroll;
 }
 #cache_locronan:target {
     width: 98%;
@@ -264,6 +266,7 @@ beolow I put it in the top right corner of the divs .cache */
     padding-left: 2%;
     padding-top: 60px;
     left: 0;
+    overflow: scroll;
 }
 #cache_quimper:target {
     width: 98%;
@@ -271,6 +274,7 @@ beolow I put it in the top right corner of the divs .cache */
     padding-left: 2%;
     padding-top: 60px;
     left: 0;
+    overflow: scroll;
 }
 #cache_dance:target {
     width: 98%;
@@ -278,6 +282,7 @@ beolow I put it in the top right corner of the divs .cache */
     padding-left: 2%;
     padding-top: 60px;
     left: 0;
+    overflow: scroll;
 }
 #cache_beach:target {
     width: 98%;
@@ -285,6 +290,7 @@ beolow I put it in the top right corner of the divs .cache */
     padding-left: 2%;
     padding-top: 60px;
     left: 0;
+    overflow: scroll;
 }
 #cache_kayak:target {
     width: 98%;
@@ -292,6 +298,7 @@ beolow I put it in the top right corner of the divs .cache */
     padding-left: 2%;
     padding-top: 60px;
     left: 0;
+    overflow: scroll;
 }
 #cache_surf:target {
     width: 98%;
@@ -299,6 +306,7 @@ beolow I put it in the top right corner of the divs .cache */
     padding-left: 2%;
     padding-top: 60px;
     left: 0;
+    overflow: scroll;
 }
 #cache_sandyachting:target {
     width: 98%;
@@ -306,6 +314,7 @@ beolow I put it in the top right corner of the divs .cache */
     padding-left: 2%;
     padding-top: 60px;
     left: 0;
+    overflow: scroll;
 }
 /*this part is about responsivity*/
 
