@@ -60,32 +60,32 @@ background-size: cover;
 
 
 .img-1 {
-background-image: url("/assets/img/galata-4043037_1920.jpg");
+background-image: url("../assets/img/galata-4043037_1920.jpg");
 min-height: 500px;
 } 
   
 .img-2 {
-background-image: url("/assets/img/ancient-istanbul.jpg");
+background-image: url("../assets/img/ancient-istanbul.jpg");
 min-height: 400px;
 }
   
 .img-3 {
-background-image: url("/assets/img/kiz-kulesi-4151715.jpg");
+background-image: url("../assets/img/kiz-kulesi-4151715.jpg");
 min-height: 400px;
 }
 
 .img-4 {
-background-image: url("/assets/img/raki.jpg");
+background-image: url("../assets/img/raki.jpg");
 min-height: 400px;
 }
 
 .img-5 {
-background-image: url("/assets/img/street-1350410_1920.jpg");
+background-image: url("../assets/img/street-1350410_1920.jpg");
 min-height: 400px;
 }
 
 .img-6 {
-background-image: url("/assets/img/cat-3688840_1920.jpg");
+background-image: url("../assets/img/cat-3688840_1920.jpg");
 min-height: 400px;
 }
    
@@ -126,7 +126,6 @@ color: #111;
   }
 
 .change:hover {
-font-size: 20px;
 color: green;
 }
 
