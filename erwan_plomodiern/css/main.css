@@ -145,7 +145,7 @@ footer {
 }
 
 .activity {
-    display: inline-block;
+ /*   display: inline-block; */
     width: 50%;
     height: 180px;
     float: left;
