@@ -324,8 +324,23 @@ text-align: center;
 }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (min-width: 320px){
 
+li {
+  padding: 0px 15px;
+}
+.item{
+padding: 0px; 
 
-
+}
+.main-img {
+  padding-top: 0%;
+}
+.images {
+  width: 45%;
+  height: 145px;
+}
+.sights {
+  width: 95%;
+}
 }
