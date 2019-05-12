@@ -31,6 +31,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .navbar-mobile {
     position: fixed;    
     justify-content: center;
@@ -48,7 +52,7 @@ body {
     color: grey;
     font-family: 'Sofia', cursive;
     position: absolute;
-    right: 8%;
+    right: 14%;
     top: 16%;
     font-size: 1.8rem;
     margin: 0;
@@ -60,7 +64,7 @@ body {
 
 label {
     display: inline-block;
-    margin: 4% 12%;
+    margin: 4% 8%;
     font-size: 2rem;    
 }
 
@@ -69,7 +73,7 @@ label {
     list-style: none;
     margin-right: 40px;
     background-color: #fff;
-    width: 100%;
+    width: 100%;    
     position: absolute;
     top: 54px; 
     padding-left: 0; 
@@ -80,14 +84,15 @@ label {
     line-height: 4em;
     padding-top: 10px;
     text-align: center;
+    background-color: grey;
 }
 
 a {
-    margin: 15px;
-    color: grey;
+    margin: 5%;
+    color: #fff;
     text-decoration: none;
     text-transform: lowercase;
-    
+    font-size: 2rem;
     
 }
 
@@ -97,16 +102,17 @@ a:hover {
 
 /*Rules for every section*/
 
-.banner-area, .hist-area, .loc-area, .img-area, .si-area {
-    position: relative;    
-    justify-content: space-around;
-    align-items: center;    
+.banner-area, .hist-area, .loc-area, .img-area, .si-area {    
+    padding-top: 75px;       
     width: 100%;
-    height: 700px;
+    
 }
 
 .hist-area h2, .loc-area h2, .img-area h2, .si-area h2 {    
-    text-transform: uppercase;
+    text-transform: uppercase;  
+    margin-top: 0;
+    margin-bottom: 16px; 
+    padding-left: 2%;     
 }
 
 /* Home Section */
@@ -127,8 +133,8 @@ a:hover {
 }
 
 .homepage-content {
-    position: relative;
-    top: 233px;
+    position: absolute;
+    top: 269px;
 }
 
 .homepage-content > h1, p {
@@ -149,63 +155,64 @@ p {
 /* History section */
 
 .content {
-    width: 100%;
-    height: auto;
+    width: 100%;    
+    display: block;    
 }
 
+
 .content > img {
-    width: 100%;
-    height: auto;
-    margin-top: 4%;    
+    width: 100%;    
+    margin-top: 50px;
+    display: block;    
 }
 
 .img_and_text {
-    width: 100%;
-    overflow: auto;
-    margin-top: 5%;
+    width: 100%;  
+    margin-top: 0;
+    height: 736px;    
 }
 
 .img_and_text img,
 .img_and_text p {   
-    float: left;
+    /*float: left;*/
     width: 100%;    
 }
 
 .img_and_text p {
     color: grey;
-    padding-left: 5%;
+    padding: 4%;
     width: 100%;
-    margin-top: 5%;
+    margin-top: 30px;
     font-size: 1rem;
+    display: inline-block;
+    text-align: justify;
 }
 
 button {
-    color: turquoise;    
+    display: none;
 }
-
-button .letter-button {
-    text-transform: uppercase;
-    
-} 
 
 /*Location Section*/
 
 iframe {
     width: 100%;
+    height: 736px;
 }
 
 /*Image Section*/
 
-
+.imagesrow {
+    overflow: auto;
+    width: 100%;
+}
 
 .col-5 {
-    width: 100%;
-    height: auto;
+    width: 100%;    
     float: left;
 }
 
 .col-5 img{
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 10px;
     object-fit: cover;    
@@ -226,12 +233,11 @@ iframe {
 .col-3 {
     width: 100%;
     height: auto;
-    float: left;
-    margin-top: 10%;
+    float: left;    
 }
 
 .col-3 img{
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 10px;
     object-fit: cover;
@@ -247,9 +253,14 @@ iframe {
 
 footer {
     position: relative;    
-    width: 80%;
+    width: 100%;
     height: 50px; 
     margin: 0 auto;   
     background-color: #000;
     text-align: center;
 } 
+
+footer p {
+    padding-top: 4%;
+    padding-left: 0;
+}
