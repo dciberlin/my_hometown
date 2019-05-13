@@ -274,12 +274,8 @@ footer>p {
         margin-top: 2.5vw;
     }
 
-    .location, .history-button, .history-box2, .history-box1, .images2  {
+    .location, .history-button, .history-box2, .history-box1, .images2, .images-bild4 , .images-bild5, .sights-images3 {
         display: none;
-    }
-
-    .images {
-        height: 30vw;
     }
 
     .history-section {
@@ -287,10 +283,9 @@ footer>p {
     }
 
     .history-box3 {
-        display: block;
+        display: inline;
         position: absolute;
         width: 100%;
-        height: auto;
         top: 0;
         right: 0;
     }
@@ -300,4 +295,61 @@ footer>p {
         box-sizing: border-box;
         margin: 0;
     }
+
+    .images {
+        height: 30vw;
+    }
+
+    .images-bild1 {
+        height: 100%;
+        width: 33.3%;
+        box-sizing: border-box;
+        padding: 0.25vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .images-bild2 {
+        height: 100%;
+        width: 33.3%;
+        box-sizing: border-box;
+        padding: 0.25vw;
+        position: absolute;
+        top: 0;
+        left: 33.3%;
+    }
+    
+    .images-bild3 {
+        height: 100%;
+        width: 33.3%;
+        box-sizing: border-box;
+        padding: 0.25vw;
+        position: absolute;
+        top: 0;
+        left: 66.6%;
+    }
+
+    .sights-images1 {
+        height: 100%;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0.25vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+    
+    .sights-images2 {
+        height: 100%;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0.25vw;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        text-align: center;
+    }
+    
 }
