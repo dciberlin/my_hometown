@@ -12,9 +12,7 @@ body {
     overflow-x: hidden;
 }
 main {
-    padding-top: 20px;
-    padding-bottom: 300px;
-    height: 100%;  
+    padding-top: 15px;
 }
 nav {
     position: fixed;
@@ -85,7 +83,6 @@ iframe {
     padding-left: 4%; 
 }
 /*the footer has a "clear" float */
-
 footer {
     clear: left;
     position: relative;
@@ -112,7 +109,6 @@ footer {
 #para2 a {
     color: white;
 }
-
 section {
     padding-top: 40px;
 }
