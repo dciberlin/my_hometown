@@ -1,64 +1,143 @@
-
+html, body {
+margin: 0%;
+padding: 0%;
+}
 
 .nav{
-  
   list-style:none;
   margin:0;
   padding:0;
-  text-align:center;
-  
-  
-  
+  text-align:center;  
+  position: fixed;
+  background-color: white;
+  width: 100%; opacity: 0.4;
 }
+
 .nav li{
   display:inline;
+  margin: 0 20px 0 20px;
 }
+
 .nav a{
   display:inline-block;
   padding:20px;
   text-decoration: none;
   color: #000;
-
-  
+  font-family: 'Bungee Inline', cursive;
   
 }
-p{display:inline-block;margin: 0 auto 70px auto}
 
+.sec { margin: 0 auto;}
 
-img{
-  display: block;
+.img1{
+  margin: 0 auto;
+  border-radius: 6px;
+  height: 450px;
+  width: 1200px;  
+  box-shadow: 5px 5px 5px gray;
+  display:block;
  
-  border-radius: 6px;height: 450px;width: 1200px;
-  margin: 0 auto 70px auto;
-  box-shadow: 5px 5px 5px gray
-  
 }
-.history{margin: 0 auto 70px auto}
 
+.history{
+  margin: 0 auto 0px auto;
+  width: 90%;}
 
-.img2 {
-   width:350px;
+.img2 { 
+  width:450px;
   height:300px;
   margin:10px 10px 10px 10px;
-  float: left;border-radius: 6px;
+  float: left;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px gray
 }
 
-  .map {
-    text-align: center;
-    margin: 0 auto; 
-    border-radius: 8px;
-    box-shadow: 5px 5px 5px gray
-  }
-  h1 {
-    padding: 10px 10px 10px 10px;
-    margin: 0 auto 70px auto
-  }
+.parg{   
+  display:inline-block;
+  margin: 0 auto 0px auto;
+  padding:10px 10px 10px 10px;
+font-family: 'Trocchi', serif;
+ }
 
 
+ .map {
+  text-align: center;
+  margin:  auto; 
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px gray;
+  width: 90%;
+}
 
 
+.gallery {
+  margin: 5px;
+  display:inline-block ;
+  padding: 5px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px gray;
+  width: 22%; 
 
-@media screen and (max-width: 600px) {
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.gallery1 {
+  width: 90%;
   
-  ul.nav li img{float: none;}
+  margin-left: auto;
+  margin-right: auto;
+
 }
+  
+
+  h1 {
+    padding: 50px 10px 10px 10px;
+    margin: 0 auto 30px auto;
+    font-family: 'Bungee Inline', cursive;
+  }
+
+.sights1 {
+  width: 90%;
+  margin: 0 auto;
+ 
+  
+ 
+}
+
+
+  .sights {
+  margin: 0 auto;
+  display:inline-block ;
+  padding: 5px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px gray;
+width: 30%;
+ 
+  }
+  .sights img {width: 100%;}
+
+  .desc {
+    padding: 15px;
+    text-align: center;font-family: 'Trocchi', serif;
+  }
+
+  footer{
+    text-align:center;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 7px ;
+    font-family: 'Bungee Inline', cursive;}
+
+
+    
+
+
+
+ 
+
+
+
+
+
