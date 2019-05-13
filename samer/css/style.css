@@ -293,6 +293,7 @@ footer{
 
 body{
   width: 100%;
+  font-size: 2em;
 }
 
 .menu{
@@ -309,6 +310,7 @@ text-align: center;
 
 .main-img{
   width: 95%;
+  padding-top: 40px;
 }
 
 .content{
@@ -324,7 +326,7 @@ text-align: center;
 }
 }
 
-@media screen and (min-width: 320px){
+/* @media screen and (-width: 919px){
 
 li {
   padding: 0px 15px;
@@ -343,4 +345,4 @@ padding: 0px;
 .sights {
   width: 95%;
 }
-}
+} */
