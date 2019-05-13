@@ -335,8 +335,27 @@ text-align: center;
 
 
 @media screen and (max-width: 576px){
-  li {
-    padding: 10px 15px;
+  
+  li{
+    padding: 10px 10px;
+  }
+  .item {
+    padding: 3px 3px;
 }
+.c-r{
+  padding: 10px 15px;
 
+}
+.main-img{
+  width: 95%;
+  padding-top: 20px;
+
+}
+.images {
+  width: 45%;
+  height: 190px;
+}
+.sights {
+  width: 95%;
+}
 }
