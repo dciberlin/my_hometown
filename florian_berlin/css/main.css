@@ -283,7 +283,7 @@ footer>p {
     }
 
     .history-box3 {
-        display: inline;
+        display: inline-block;
         position: absolute;
         width: 100%;
         top: 0;
