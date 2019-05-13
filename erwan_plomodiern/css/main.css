@@ -1,6 +1,4 @@
 html {
-    background: url(../assets/img/plomo_old.jpg) no-repeat center center fixed;
-    background-size: cover;
     scroll-behavior: smooth;
 }
 
@@ -13,8 +11,12 @@ body {
     background-size: cover;
     overflow-x: hidden;
 }
-
-#nav {
+main {
+    padding-top: 20px;
+    padding-bottom: 300px;
+    height: 100%;  
+}
+nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -25,7 +27,7 @@ body {
     border-collapse: collapse;
     z-index: 11;
 }
-#nav ul {
+nav ul {
     list-style: none;
     width: 100%;
     margin: 0;
@@ -34,7 +36,7 @@ body {
     border-collapse: collapse;
     background-color: #333;
 }
-#nav ul li {
+nav ul li {
     list-style: none;
     display: inline-block;
     margin: 0;
@@ -45,7 +47,7 @@ body {
     background-color: #333;
     color: white;
 }
-#nav ul li a {
+nav ul li a {
     display: block;
     color: white;
     text-decoration: none;
@@ -54,12 +56,14 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+nav ul li :hover {
+    background-color: #aaa
+}
 a {
     color: black;
 }
 h1 {
-    padding-top: 30px;
-    background-color: rgba(204, 204, 204, 0.8);
+    background-color: rgba(204, 204, 204, 0.9);
     border-radius: 5px;
     margin-bottom: -30px;
 }
@@ -80,17 +84,16 @@ iframe {
     height:300px;
     padding-left: 4%; 
 }
-/*the buffer div is there to "clear" the float left before acting on footer*/
-#buffer {
-    clear: left;
-}
+/*the footer has a "clear" float */
+
 footer {
+    clear: left;
     position: relative;
+    top: 10px;
+    bottom: 0;
     width: 102%;
     background-color: #333;
     transform: translateX(-1%);
-    margin-top: 20px;
-    
 }
 #para1 {
     background-color: #333;
@@ -110,22 +113,10 @@ footer {
     color: white;
 }
 
-#history {
+section {
     padding-top: 40px;
 }
-#location {
-    padding-top: 40px;
-}
-#activities {
-    padding-top: 40px;
-}
-#photos {
-    padding-top: 40px;
-    width: 100%;
-}
-#nav ul li :hover {
-    background-color: #aaa
-}
+
 /* views section layout*/
 .views_plomo {
     display: inline-block;
@@ -145,7 +136,6 @@ footer {
 }
 
 .activity {
- /*   display: inline-block; */
     width: 50%;
     height: 180px;
     float: left;
@@ -170,7 +160,6 @@ footer {
 .activity p {
     display: block;
     width: 98%;
-    z-index: 10;
 }
 
 /* this part is about the photos appearing and disappearing 
@@ -227,7 +216,6 @@ beolow I put it in the top right corner of the divs .cache */
 .cache2 {
     width: 0;
     overflow: hidden;
-    z-index: 1;
     position: fixed;
     top: 0;
     left: -100px; /* this bring the div away from the side so the appearance looks smoother
@@ -320,6 +308,7 @@ beolow I put it in the top right corner of the divs .cache */
 
 /*the first one is more for the fun of it since it's not
 really clean to have 3 images on one line and then 1 alone*/
+
 @media screen and (min-width: 768px) and (max-width : 991px) {
     .views_plomo {
         width: 33%;
