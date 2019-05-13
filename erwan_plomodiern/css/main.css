@@ -1,6 +1,4 @@
 html {
-    background: url(../assets/img/plomo_old.jpg) no-repeat center center fixed;
-    background-size: cover;
     scroll-behavior: smooth;
 }
 
@@ -13,8 +11,10 @@ body {
     background-size: cover;
     overflow-x: hidden;
 }
-
-#nav {
+main {
+    padding-top: 20px;  
+}
+nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -25,7 +25,7 @@ body {
     border-collapse: collapse;
     z-index: 11;
 }
-#nav ul {
+nav ul {
     list-style: none;
     width: 100%;
     margin: 0;
@@ -34,7 +34,7 @@ body {
     border-collapse: collapse;
     background-color: #333;
 }
-#nav ul li {
+nav ul li {
     list-style: none;
     display: inline-block;
     margin: 0;
@@ -45,7 +45,7 @@ body {
     background-color: #333;
     color: white;
 }
-#nav ul li a {
+nav ul li a {
     display: block;
     color: white;
     text-decoration: none;
@@ -58,8 +58,7 @@ a {
     color: black;
 }
 h1 {
-    padding-top: 30px;
-    background-color: rgba(204, 204, 204, 0.8);
+    background-color: rgba(204, 204, 204, 0.9);
     border-radius: 5px;
     margin-bottom: -30px;
 }
@@ -82,15 +81,14 @@ iframe {
 }
 /*the buffer div is there to "clear" the float left before acting on footer*/
 #buffer {
-    clear: left;
+   /* clear: left; */
 }
 footer {
-    position: relative;
     width: 102%;
     background-color: #333;
     transform: translateX(-1%);
     margin-top: 20px;
-    
+    clear: left;
 }
 #para1 {
     background-color: #333;
@@ -119,6 +117,7 @@ footer {
 #activities {
     padding-top: 40px;
 }
+
 #photos {
     padding-top: 40px;
     width: 100%;
@@ -145,7 +144,6 @@ footer {
 }
 
 .activity {
- /*   display: inline-block; */
     width: 50%;
     height: 180px;
     float: left;
@@ -170,7 +168,7 @@ footer {
 .activity p {
     display: block;
     width: 98%;
-    z-index: 10;
+ /*   z-index: 10; */
 }
 
 /* this part is about the photos appearing and disappearing 
