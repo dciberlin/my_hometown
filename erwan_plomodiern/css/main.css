@@ -1,0 +1,338 @@
+html {
+    background: url(../assets/img/plomo_old.jpg) no-repeat center center fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 98%;
+    margin: 0;
+    padding: 0 1% 0 1%;
+    background-color: #aaa;
+    background: url(../assets/img/plomo_old.jpg) no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+    z-index: 11;
+}
+#nav ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+    background-color: #333;
+}
+#nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    width: 24%;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+#nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    padding-block-end: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a {
+    color: black;
+}
+h1 {
+    padding-top: 30px;
+    background-color: rgba(204, 204, 204, 0.8);
+    border-radius: 5px;
+    margin-bottom: -30px;
+}
+h2 {
+    background-color: rgb(204, 204, 204, 0.8);
+    border-radius: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div p {
+    background-color: rgba(204, 204, 204, 0.8);
+    border-radius: 5px;
+}
+iframe {
+    width: 90%;
+    height:300px;
+    padding-left: 4%; 
+}
+/*the buffer div is there to "clear" the float left before acting on footer*/
+#buffer {
+    clear: left;
+}
+footer {
+    position: relative;
+    width: 102%;
+    background-color: #333;
+    transform: translateX(-1%);
+    margin-top: 20px;
+    
+}
+#para1 {
+    background-color: #333;
+    color: white;
+    width: 59%;
+    display: inline-block;
+    text-align: center;
+}
+#para2 {
+    background-color: #333;
+    color: white;
+    width: 39%;
+    display: inline-block;
+    text-align: center;
+}    
+#para2 a {
+    color: white;
+}
+
+#history {
+    padding-top: 40px;
+}
+#location {
+    padding-top: 40px;
+}
+#activities {
+    padding-top: 40px;
+}
+#photos {
+    padding-top: 40px;
+    width: 100%;
+}
+#nav ul li :hover {
+    background-color: #aaa
+}
+/* views section layout*/
+.views_plomo {
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+    padding-top: 3px;
+    vertical-align: middle; /* to get the divs align more or less on the middle line */
+}
+.views_plomo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.6s;
+}
+.views_plomo img {
+    display: block;
+    width: 98%;
+    object-fit: scale-down;
+}
+
+.activity {
+ /*   display: inline-block; */
+    width: 50%;
+    height: 180px;
+    float: left;
+    vertical-align: bottom;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgba(204, 204, 204, 0.6);
+    overflow: hidden;
+}
+.activity:hover {
+    transform: scale(1.05);
+    background-color: rgba(156, 156, 156, 0.6);
+    transition-duration: 0.6s;
+}
+.activity img {
+    display: block;
+    width: 100%;
+    height: 90%;
+    object-fit: scale-down;
+}
+.activity p {
+    display: block;
+    width: 98%;
+    z-index: 10;
+}
+
+/* this part is about the photos appearing and disappearing 
+in the view section */
+
+.cache {
+    width: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: rgba(204, 204, 204, 0.8);    
+    padding-top: 80px;
+    transition: 0.6s;
+}
+/* added a close menu button with awesome font 
+beolow I put it in the top right corner of the divs .cache */
+.cache a i {
+    vertical-align: top;
+    color: #333;
+    transform: scale(2) translate(15px, 10px);
+}
+.cache img {
+    max-height: 85%;
+    width:90%;
+    max-width: 750px;
+    object-fit: scale-down;
+}
+/* div with id below will 'appear' with width going from 0 to 99% */
+#cache_parapente:target {
+    width: 99%;
+    height: 100%;
+    padding-left: 1%;
+    padding-top: 80px;
+}
+#cache_lestrevet:target {
+    width: 99%;
+    height: 100%;
+    padding-left: 1%;
+    padding-top: 80px;
+}
+#cache_chapel:target {
+    width: 99%;
+    height: 100%;
+    padding-left: 1%;
+    padding-top: 80px;
+}
+#cache_festival:target {
+    width: 99%;
+    height: 100%;
+    padding-left: 1%;
+    padding-top: 80px;
+}
+/* here is the hidden parts .cache2 from the activity section */
+.cache2 {
+    width: 0;
+    overflow: hidden;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: -100px; /* this bring the div away from the side so the appearance looks smoother
+    to correct that though, we must respecify left: 0px when targeted */
+    background-color: rgba(204, 204, 204, 0.8);    
+    padding-top: 100px;
+    transition: 1s;
+}
+.cache2 img {
+    max-width: 800px;
+    max-height: 75%;
+    width:70%;
+    object-fit: contain;
+}
+/* the div below will appear with width going from 0 to 100% */
+/* system is not optimized when the window is croped (vertically) in the screen height */
+#cache_peche:target {
+    width: 98%;
+    height: 100%;
+    padding-left: 2%;
+    padding-top: 60px;
+    left: 0;
+    overflow: scroll;
+}
+#cache_peche_douarn:target {
+    width: 98%;
+    height: 90%;
+    padding-left: 2%;
+    padding-top: 60px;
+    left: 0;
+    overflow: scroll;
+}
+#cache_locronan:target {
+    width: 98%;
+    height: 90%;
+    padding-left: 2%;
+    padding-top: 60px;
+    left: 0;
+    overflow: scroll;
+}
+#cache_quimper:target {
+    width: 98%;
+    height: 90%;
+    padding-left: 2%;
+    padding-top: 60px;
+    left: 0;
+    overflow: scroll;
+}
+#cache_dance:target {
+    width: 98%;
+    height: 90%;
+    padding-left: 2%;
+    padding-top: 60px;
+    left: 0;
+    overflow: scroll;
+}
+#cache_beach:target {
+    width: 98%;
+    height: 90%;
+    padding-left: 2%;
+    padding-top: 60px;
+    left: 0;
+    overflow: scroll;
+}
+#cache_kayak:target {
+    width: 98%;
+    height: 90%;
+    padding-left: 2%;
+    padding-top: 60px;
+    left: 0;
+    overflow: scroll;
+}
+#cache_surf:target {
+    width: 98%;
+    height: 90%;
+    padding-left: 2%;
+    padding-top: 60px;
+    left: 0;
+    overflow: scroll;
+}
+#cache_sandyachting:target {
+    width: 98%;
+    height: 90%;
+    padding-left: 2%;
+    padding-top: 60px;
+    left: 0;
+    overflow: scroll;
+}
+/*this part is about responsivity*/
+
+/*the first one is more for the fun of it since it's not
+really clean to have 3 images on one line and then 1 alone*/
+@media screen and (min-width: 768px) and (max-width : 991px) {
+    .views_plomo {
+        width: 33%;
+    }
+    .activity {
+        width: 33%;
+    }
+  }
+@media screen and (min-width: 992px) {
+    .views_plomo {
+        width: 25%;
+    }
+    .activity {
+        width: 25%;
+    }
+  }
