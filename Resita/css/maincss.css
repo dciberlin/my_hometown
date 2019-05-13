@@ -40,16 +40,16 @@ nav ul li a {
 }
 
 p {
-    font-family: 'Dancing Script', cursive;;
+    font-family: 'Dancing Script', cursive;
     font-size: 30px;
 
 }
 
-.box1 {
+#topimage {
     position: relative;
 }
 
-.box1 img {
+#topimage img {
     width: 75%;
     display: block;
     margin-left: auto;
@@ -57,7 +57,7 @@ p {
     filter: grayscale(100%);
 }
 
-.box1 h1 {
+h1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -67,7 +67,7 @@ p {
     letter-spacing: 3px;
 }
 
-.h2 {
+h2 {
     font-family: 'Indie Flower', cursive;
     font-size: 1em;
     width: 75%;
@@ -76,40 +76,29 @@ p {
     margin-top: 100px;
 }
 
-h2 {
-    margin-top: 100px;
-}
-
-.box2,
-.box3,
-.box4,
-.box5 {
+.container {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.box2 img {
+#history img {
     display: block;
     width: 45%;
     margin-left: auto;
     margin-right: auto;
+    padding-right: 15px;
     float: left;
     border-radius: 15px;
 }
 
-.box2 div {
-    width: 50%;
-    float: right;
-}
-
-.box2 div p {
+#history div p {
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     margin-top: 0px;
 }
 
-.box2 button {
+#history button {
     display: inline-block;
     border-radius: 4px;
     background-color: #1c92d2;
@@ -124,14 +113,14 @@ h2 {
     margin: 5px;
 }
 
-.box2 button span {
+#history button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
 
-.box2 button span:after {
+#history button span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -140,28 +129,29 @@ h2 {
     transition: 0.5s;
 }
 
-.box2 button:hover span {
+#history button:hover span {
     padding-right: 25px;
 }
 
-.box2 .button:hover span:after {
+#history .button:hover span:after {
     opacity: 1;
     right: 0;
 }
 
-.box2 button span a {
+#history button span a {
     text-decoration: none;
     color: #f2fcfe;
 }
 
-.box2 button span a:visited {
+#history button span a:visited {
     color: #f2fcfe;
 }
 
-.h2 {
-    overflow: hidden;
+#history::after {
+    content: "";
+    display: block;
+    clear: both;
 }
-
 iframe {
     width: 100%;
 }
@@ -173,10 +163,11 @@ iframe {
     float: left;
     width: 23.5%;
 }
+
 .gallery::after {
-    content: "";  
-    display: block; 
-    height: 0; 
+    content: "";
+    display: block;
+    height: 0;
     clear: both;
 }
 
@@ -199,10 +190,7 @@ iframe {
 
 /* Sights Styiling */
 
-.sight1 img,
-.sight2 img,
-.sight3 img,
-.sight4 img {
+#sights img {
     width: 100%;
     border-radius: 10px;
     border-color: lightblue;
@@ -216,7 +204,18 @@ iframe {
     border-radius: 5px;
     border-color: #46b8da;
 }
-
+footer {
+    position:relative;
+    text-align: center;
+    width: 100%;
+}
+footer ul li i{
+    font-size: 40px;
+    padding: 0 20px;
+}
+footer a:hover, a:active, a:visited, a:link {
+    color: black;
+}
 #bttb {
     position: fixed;
     bottom: -4px;
@@ -230,7 +229,7 @@ iframe {
 }
 
 @media screen and (min-width: 801px) {
-    
+
     #emblem {
         display: none;
     }
@@ -240,6 +239,7 @@ iframe {
     .box2 img {
         margin-bottom: 10px;
     }
+
     #top ul {
         position: fixed;
         z-index: 1000;
@@ -297,13 +297,16 @@ iframe {
     html {
         scroll-behavior: smooth;
     }
+
     .box1 {
         width: 100%;
     }
+
     .box1 img {
         width: 100%;
         padding-top: 75px;
     }
+
     #emblem {
         display: none;
     }
@@ -319,9 +322,12 @@ iframe {
 
     #top ul {
         position: fixed;
-        background: #2193b0;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #2193b0;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #6dd5ed, #2193b0);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         ;
         width: 100%;
         left: 50%;
@@ -342,40 +348,47 @@ iframe {
         margin: 0;
         padding: 0;
     }
+
     div .gallery {
         width: 100%;
     }
-    
+
     .bttb {
-        background: #2193b0;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-              color: white;
+        background: #2193b0;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #6dd5ed, #2193b0);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
         padding: 10px 20px;
         border-radius: 5px;
         border-color: #46b8da;
     }
-    
+
     #bttb {
         position: fixed;
         bottom: -4px;
         right: 0px;
     }
-    
+
     .bttb a {
-    
+
         text-decoration: none;
         color: white;
     }
+
     .desc {
         display: none;
     }
+
     .extratxt {
         display: none;
     }
+
     iframe {
         object-fit: cover;
-        width:280px;
+        width: 280px;
         height: 150px;
     }
 }
