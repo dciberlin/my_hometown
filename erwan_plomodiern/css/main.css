@@ -12,7 +12,9 @@ body {
     overflow-x: hidden;
 }
 main {
-    padding-top: 20px;  
+    padding-top: 20px;
+    padding-bottom: 300px;
+    height: 100%;  
 }
 nav {
     position: fixed;
@@ -54,6 +56,9 @@ nav ul li a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+nav ul li :hover {
+    background-color: #aaa
+}
 a {
     color: black;
 }
@@ -82,11 +87,13 @@ iframe {
 /*the footer has a "clear" float */
 
 footer {
+    clear: left;
+    position: relative;
+    top: 10px;
+    bottom: 0;
     width: 102%;
     background-color: #333;
     transform: translateX(-1%);
-    margin-top: 20px;
-    clear: left;
 }
 #para1 {
     background-color: #333;
@@ -110,26 +117,6 @@ section {
     padding-top: 40px;
 }
 
-/*
-#history {
-    padding-top: 40px;
-}
-#location {
-    padding-top: 40px;
-}
-#activities {
-    padding-top: 40px;
-}
-
-#photos {
-    padding-top: 40px;
-    width: 100%;
-}
-*/
-
-#nav ul li :hover {
-    background-color: #aaa
-}
 /* views section layout*/
 .views_plomo {
     display: inline-block;
@@ -229,7 +216,6 @@ beolow I put it in the top right corner of the divs .cache */
 .cache2 {
     width: 0;
     overflow: hidden;
-  /*  z-index: 1; */
     position: fixed;
     top: 0;
     left: -100px; /* this bring the div away from the side so the appearance looks smoother
@@ -322,6 +308,7 @@ beolow I put it in the top right corner of the divs .cache */
 
 /*the first one is more for the fun of it since it's not
 really clean to have 3 images on one line and then 1 alone*/
+
 @media screen and (min-width: 768px) and (max-width : 991px) {
     .views_plomo {
         width: 33%;
