@@ -11,43 +11,9 @@ body {
     } 
 
   /*  Navigation   */
-
-.desktop-nav {
-height: 70px; 
-width: 100%;
-
-display: flex;
-justify-content: flex-start;
-z-index:9;
-}
-
-.desktop-nav a {
-  text-decoration: none;
-}
-
-.desktop-nav ul {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.desktop-nav ul li { 
-
-display: flex;
-flex-wrap: wrap;
-padding-left: 10px;
-padding-right: 10px; 
-padding-top: 5px;
-padding-bottom: 50px;
-margin-right: 20px;
-font-size: 25px;
-color: blue; 
-}
     
-.desktop-nav a:hover { 
+.my-nav a:hover { 
 color: green; 
-font-size: 28px;
 } 
 
 /* Body */
@@ -164,12 +130,11 @@ padding-left: 350px;
    
 }
 
-
 .close p{
 padding-top: 10px;
 font-size: 20px;
 text-align: center;
-color: blue;
+color: black;
   }
 
 .close {
@@ -192,7 +157,7 @@ object-fit: cover;
 
 .photoss img:hover {
 border: 1px solid #777;
-transform: scale(1.2);
+transform: scale(1.0);
   } 
   
 figcaption { 
@@ -274,40 +239,9 @@ body img {
   font-size: 15px;
 }
 
-
-.desktop-nav {
-  display: none;
-}
-
 .fa-bars {
   font-size: 55px;
 }
-
-.mobile-nav {
-top:0;
-left:0;
-height: 150px;;
-z-index:9;
-}
-
-.mobile-nav ul {
-  width: 150px;
-  height: 150px;
-}
-
-.mobile-nav ul li{
-  
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 1.3;
-}
-
-.mobile-nav a:hover { 
-  color: green; 
-  } 
-  
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -324,37 +258,6 @@ body img {
 .transparent {
   font-size: 18px;
 }
-
-
-.desktop-nav {
-  display: none;
-}
-
-.mobile-nav {
-top:0;
-left:0;
-height: 200px;;
-z-index:9;
-}
-
-.mobile-nav ul {
-  width: 170px;
-  height: 170px;
-}
-
-.mobile-nav ul li{
-  
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 1.3;
-}
-
-.mobile-nav a:hover { 
-  color: green; 
-  } 
-  
 }
 
 /* For tablets: */
@@ -380,42 +283,6 @@ body img {
   width: 0;
 }
 
-.desktop-nav {
-  height: 85px; 
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  z-index:9;
-  }
-  
-  .desktop-nav a {
-  text-decoration: none;
-  }
-  
-  .desktop-nav ul {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  }
-  
-  .desktop-nav ul li { 
-  
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 10px;
-  padding-right: 10px; 
-  padding-top: 5px;
-  padding-bottom: 50px;
-  margin-right: 20px;
-  font-size: 20px;
-  color: blue; 
-  }
-      
-  .desktop-nav a:hover { 
-  color: green; 
-  font-size: 23px;
-  } 
   
 }
 
