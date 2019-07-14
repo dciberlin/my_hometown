@@ -1,0 +1,147 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #1d2254;
+}
+
+.city {
+    float: none;
+    position: fixed;
+    top: 50px;
+    left: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: seashell;
+}
+
+
+nav ul {
+    list-style: none;
+    background-image: linear-gradient(to left bottom, #051937, #1d2254, #42276e, #6d2380, #9d0789);
+    text-align: center;
+    padding: 0;
+    margin-top: 5px;
+    width: 100%;
+    position: fixed;
+
+
+
+}
+
+nav li {
+    display: inline-block;
+
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 60px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: monaco;
+
+}
+
+nav a:hover {
+    background-color: #ef0078;
+    transition: .6s;
+    border-radius: 6px;
+    lighting-color: yellow;
+    font-size: x-large;
+
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box
+}
+
+section.sec1 {
+    background: url(images/3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section.sec2 {
+    background: url(images/2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section.sec3 {
+    background: url(images/1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section.sec4 {
+    background: url(images/4.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section.sectext {
+    padding: 50px 50px;
+    width: 50%;
+    height: auto;
+    text-align: justify;
+
+}
+
+section.sectext h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    color: #800080;
+    text-shadow: 2px -2px 7px whitesmoke;
+}
+
+section.sectext p {
+
+    margin-top: 5%;
+    font-size: 18px;
+    color: black;
+    background-color: gray;
+    font-family: monaco;
+    text-indent: 50px;
+    text-shadow: 2px -2px 7px whitesmoke;
+}
+
+.damas {
+
+    width: auto;
+}
+
+.damas img {
+    width: 20%;
+    padding: 0 20px 0 25px;
+    margin: 0 auto;
+    transition: all .5s ease-in-out;
+    max-width: 400px;
+
+
+}
+
+.damas img:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+
+}
