@@ -1,0 +1,355 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Sintony', sans-serif;
+}
+
+body {
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+nav {
+    top: 0;
+    width: 100%;
+    margin-top: 2.5vw;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+nav li {
+    display: inline-block;
+    color: black;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0 4vw;
+    text-align: center;
+}
+
+header {
+    background: url(/assets/images/Fernsehturmberlin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    height: 40vw;
+    width: 100%;
+    position: relative;
+    margin-top: 2.5vw;
+}
+
+h1 {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-top: 5vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    height: 30vw;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.images, .images2 {
+    height: 15vw;
+    width: 100%;
+    position: relative;
+}
+
+.history-box1 {
+    position: absolute;
+    width: 42.5%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.history-bild {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 1%;
+    box-shadow: 4px 4px 4px lightgrey;
+}
+
+.history-box2 {
+    position: absolute;
+    width: 55.5%;
+    height: 65%;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.history-box3 {
+    display: none;
+}
+
+.history-box2 p {
+    margin: 0;
+}
+
+.history-button {
+    position: absolute;
+    width: auto;
+    height: 18.25%;
+    bottom: 0;
+    left: 44.5%;
+    margin: 0;
+    padding:0;
+}
+
+.history-button p {
+    margin:0;
+    padding:0;
+}
+
+.history-button a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 1vw 2vw;
+}
+
+.history-button a:hover {
+    color: white;
+    background-color: black;
+}
+
+.images-bild1 {
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0.25vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.images-bild2 {
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0.25vw;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+.images-bild3 {
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0.25vw;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+
+.images-bild4 {
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0.25vw;
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+
+.images-bild5 {
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0.25vw;
+    position: absolute;
+    top: 0;
+    left: 80%;
+}
+
+.images-image {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 1%;
+    box-shadow: 4px 4px 4px lightgrey;
+}
+
+.sights-images1 {
+    height: 100%;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 0.25vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.sights-images2 {
+    height: 100%;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 0.25vw;
+    position: absolute;
+    top: 0;
+    left: 33.3%;
+    text-align: center;
+}
+
+.sights-images3 {
+    height: 100%;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 0.25vw;
+    position: absolute;
+    top: 0;
+    left: 66.6%;
+    text-align: center;
+}
+
+.untertitel1 {
+    margin:0;
+    padding:0;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 5vw;
+    margin-top: 10vw;
+    color: white;
+}
+
+footer>p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width:768px) {
+    #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h2 {
+        margin-left: 2.5%;
+        margin-bottom: 0;
+        margin-top: 2.5vw;
+    }
+
+    .location, .history-button, .history-box2, .history-box1, .images2, .images-bild4 , .images-bild5, .sights-images3 {
+        display: none;
+    }
+
+    .history-section {
+        height: 15vw;
+    }
+
+    .history-box3 {
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        right: 0;
+    }
+
+    .history-box3 p {
+        padding: 1vw 2vw;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .images {
+        height: 30vw;
+    }
+
+    .images-bild1 {
+        height: 100%;
+        width: 33.3%;
+        box-sizing: border-box;
+        padding: 0.25vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .images-bild2 {
+        height: 100%;
+        width: 33.3%;
+        box-sizing: border-box;
+        padding: 0.25vw;
+        position: absolute;
+        top: 0;
+        left: 33.3%;
+    }
+    
+    .images-bild3 {
+        height: 100%;
+        width: 33.3%;
+        box-sizing: border-box;
+        padding: 0.25vw;
+        position: absolute;
+        top: 0;
+        left: 66.6%;
+    }
+
+    .sights-images1 {
+        height: 100%;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0.25vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+    
+    .sights-images2 {
+        height: 100%;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0.25vw;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        text-align: center;
+    }
+    
+}
