@@ -1,0 +1,404 @@
+body, html {
+height: 100%;
+width: 100%;
+margin: 0;
+font-family: Rubik; sans-serif;
+font-size: 25px;
+    }
+  
+body {
+      background-color: gainsboro;
+    } 
+
+  /*  Navigation   */
+    
+.my-nav a:hover { 
+color: green; 
+} 
+
+/* Body */
+
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
+position: relative;
+opacity: 0.9;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  
+}
+
+
+.img-1 {
+background-image: url("../assets/img/galata-4043037_1920.jpg");
+height: 100%;
+width: 100%;
+min-height: 500px;
+
+} 
+  
+.img-2 {
+background-image: url("../assets/img/ancient-istanbul.jpg");
+height: 100%;
+width: 100%;
+min-height: 400px;
+}
+  
+.img-3 {
+background-image: url("../assets/img/kiz-kulesi-4151715.jpg");
+height: 100%;
+width: 100%;
+min-height: 400px;
+}
+
+.img-4 {
+background-image: url("../assets/img/raki.jpg");
+height: 100%;
+width: 100%;
+min-height: 400px;
+}
+
+.img-5 {
+background-image: url("../assets/img/street-1350410_1920.jpg");
+height: 100%;
+width: 100%;
+min-height: 400px;
+}
+
+.img-6 {
+background-image: url("../assets/img/cat-3688840_1920.jpg");
+height: 100%;
+width: 100%;
+min-height: 400px;
+}
+   
+
+.transparent {
+background-color: rgba(255,255,255,0.5);
+border-radius: 5px;
+font-size:40px;
+letter-spacing: 5px;
+color: blue;
+z-index: 2;
+}
+
+.rel {
+position:relative;
+color: black;
+background-color: gainsboro;
+text-align:center;
+letter-spacing: 2px;
+padding:50px 80px;
+text-align: justify;
+}
+
+.caption {
+position: absolute;
+left: 0;
+top: 50%;
+width: 100%;
+text-align: center;
+color: #000;
+  }
+  
+  
+.welcome {
+text-align: center;
+letter-spacing: 5px;
+color: #111;
+  }
+
+.change:hover {
+color: green;
+}
+
+
+  /* Location */
+
+.frame {
+padding-top: 10px;
+padding-left: 350px;
+  }
+
+  /* Photos */
+
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.close p{
+padding-top: 10px;
+font-size: 20px;
+text-align: center;
+color: black;
+  }
+
+.close {
+margin-left: 50px;
+display: flex;
+flex-direction: row;
+
+  }
+
+.photoss div {
+margin: 25px;
+  }
+  
+.photoss img {
+width: 300px;
+height: 200px;
+margin: 5px;
+object-fit: cover;
+  }
+
+.photoss img:hover {
+border: 1px solid #777;
+transform: scale(1.0);
+  } 
+  
+figcaption { 
+width: 300px;
+text-align: center;
+  } 
+
+
+  /* Footer */
+
+  hr {
+border: 0;
+height: 1px;
+background-image: linear-gradient(to right, #fff, #333, #fff);
+margin: 10px 0;
+    }
+
+.foot {
+        
+text-align: center;
+padding-bottom: 5px;
+    
+}
+
+#ref {
+color: black;
+padding-bottom: 5px;
+padding-left: 30px;
+
+}
+
+.my-wish {
+  color: #0e76a8;
+}
+
+
+.linked {
+font-size: 40px;
+padding-bottom: 5px;
+}
+
+.uline a {
+
+text-decoration: underline;
+color: blue;
+}
+
+.uline p {
+
+padding-left: 25px;
+padding-right: 10px; 
+padding-top: 2px;
+padding-bottom: 5px;
+margin-right: 5px;
+font-size: 10px;
+
+}
+
+.fa-linkedin {
+color: #0e76a8 ;
+}
+
+ /* Responsive */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+
+body, html {
+font-size: 15px;
+  }
+
+body img {
+  min-height: 50px;
+  min-width: 25px;
+}
+
+.transparent {
+  font-size: 15px;
+}
+
+.fa-bars {
+  font-size: 55px;
+}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+  body, html {
+    font-size: 18px;
+  }
+
+body img {
+  min-height: 75px;
+  min-width: 50px;
+}
+
+.transparent {
+  font-size: 18px;
+}
+}
+
+/* For tablets: */
+@media only screen and (min-width: 768px) and (max-width: 1200px)  { 
+
+
+  body, html {
+    font-size: 13px;
+  }
+
+body img {
+  min-height: 85px;
+  min-width: 60px;
+}
+
+.transparent {
+  font-size: 30px;
+}
+
+
+.mobile-nav {
+  display: none;
+  width: 0;
+}
+
+  
+}
+
+/* Responsive for Desktops */
+
+@media only screen and (min-width:1024px) {
+
+  body, html {
+    font-size: 20px;
+  }
+
+body img {
+  min-height: 400px;
+  height: 100%;
+  width: 100%;
+}
+
+} 
+
+/* Responsive Photos */
+
+/* Extra small devices (phones, 600px and down) */
+
+@media screen and (max-width:600px) {
+
+.photoss img {
+width: 270px;
+height: 170px;
+object-fit: cover;
+}
+
+.desc {
+    
+  width: 200px;
+}
+
+.close {
+  font-size: 10px;
+  
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+
+  .photoss img {
+    width: 330px;
+    height: 230px;
+    object-fit: cover;
+    }
+    
+    .desc {
+        
+      width: 300px;
+    }
+    
+    .close {
+      font-size: 15px;
+      
+        }
+    
+    }
+
+}
+
+/* For tablets: */
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+  .photoss img {
+    width: 350px;
+  height: 250px;
+  object-fit: cover;
+  margin: 5px;
+  float: left;
+  }
+  
+  .desc {
+      
+    width: 300px;
+  }
+  
+  .close {
+    font-size: 18px;
+    
+      }
+  
+  }
+  
+
+/* Responsive Location */
+
+
+/* Extra small devices (phones, 600px and down)
+
+@media screen and (max-width:600px) {
+
+I couldnt manage to make the maps responsive for phones
+
+} */
+
+/* For tablets: */
+@media only screen and (min-width: 768px) and (max-width: 1200px)  {
+
+.frame {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.frame iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+}
